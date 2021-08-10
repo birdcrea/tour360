@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exposición 360°</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<main>
+    <div id="panorama" class="background full"></div>
+</main>
+<script>
+    pannellum.viewer('panorama', {   
+        "default": {
+            "autoLoad": true,
+            "firstScene": "image1",
+            "sceneFadeDuration": 1000,
+            "compass" : true
+        },
+    
+        "scenes": {
+            "image1": {
+                "title": "Pasillo",
+                "hfov": 100,
+                "pitch": 0,
+                "yaw": 0,
+                "type": "equirectangular",
+                "panorama": "images/camara01.jpg",
+                "hotSpots": [
+                    {
+                        "pitch": -15,
+                        "yaw": 0,
+                        "type": "scene",
+                        "text": "Avanzar a UCI y Hospitalización",
+                        "sceneId": "image2",
+                        "targetYaw": -23,
+                        "targetPitch": 2
+                    }
+                ]
+            },
+    
+            "image2": {
+                "title": "Pasillo",
+                "hfov": 100,
+                "yaw": 5,
+                "type": "equirectangular",
+                "panorama": "images/camara02.jpg",
+                "hotSpots": [
+                    {
+                        "pitch": -15,
+                        "yaw": 0,
+                        "type": "scene",
+                        "text": "Regresar a Sala de Operaciones y Terapias Ambulatorias",
+                        "sceneId": "image1",
+                        "targetYaw": -23,
+                        "targetPitch": 2
+                    }
+                ]
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
