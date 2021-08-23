@@ -2,10 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Exposición 360°</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
@@ -108,6 +111,31 @@
                         "sceneId": "image1",
                         "targetYaw": -23,
                         "targetPitch": 2
+                    },
+                    {
+                        "pitch": -10,
+                        "yaw": 265,
+                        "cssClass": "hotspot-celcite hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Cateter Port - Celsite",
+                        "clickHandlerFunc" : hello,
+                        "clickHandlerArgs" : "hotspot-celcite"
+                    },
+                    {
+                        "pitch": 2,
+                        "yaw": 265,
+                        "cssClass": "hotspot-bombainfusion hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Bombas de Infusion Space y Compact Plus",
+                        "clickHandlerFunc" : hello,
+                    },
+                    {
+                        "pitch": -10,
+                        "yaw": 255,
+                        "cssClass": "hotspot-infusores hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Infusores Elastoméricos - EasyPump II",
+                        "clickHandlerFunc" : hello,
                     }
                 ]
             },
@@ -149,7 +177,59 @@
             }
         }
     });
+
+function hello (event, args){
+    console.log(args);    
+    var myModal = new bootstrap.Modal(document.getElementById("ModalItem"), {});
+    myModal.show();
+}
+    // Hot spot creation function
+function hotspot(hotSpotDiv, args) {
+    hotSpotDiv.classList.add('custom-tooltip');
+    var span = document.createElement('span');
+    span.innerHTML = args;
+    hotSpotDiv.appendChild(span);
+    span.style.width = span.scrollWidth - 20 + 'px';
+    span.style.marginLeft = -(span.scrollWidth - hotSpotDiv.offsetWidth) / 2 + 'px';
+    span.style.marginTop = -span.scrollHeight - 12 + 'px';
+}
+
 </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+<div id="ModalItem" class="modal" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Bombas de Infusion Space y Compact Plus</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="info-icon">
+                <img src="images/icon_info.png"/>
+            </div>
+            <div class="container">
+                <div class="row align-items-start">
+                  <div class="col-6">
+                    <figure class="figure">
+                        <img class="figure-img img-fluid rounded back-img" src="images/productos/ambulatorios/03AIS_BombasInfusionSpace.png">
+                    </figure>
+                  </div>
+                  <div class="col-6">
+                    <h4 class="subtitle">Descripción del producto</h4>
+                    <p>Equipos diseños para el desarrollo de diferentes terapias ambulatorias como administracion de terapias nutricionales,
+                        adminitracion de terapias medicamentos y citostáticos con el uso de líneas especializadas en el sistema cerrado que
+                        previenen los derrames y aerosoles.</p>
+                    <h4 class="subtitle">Links de contenido</h4>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
