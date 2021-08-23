@@ -18,6 +18,8 @@
     </header>
     <div id="panorama" class="background full"></div>
 </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
 <script>
     pannellum.viewer('panorama', {   
         "default": {
@@ -118,24 +120,44 @@
                         "cssClass": "hotspot-celcite hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Cateter Port - Celsite",
-                        "clickHandlerFunc" : hello,
+                        "clickHandlerFunc" : ambulatorio,
                         "clickHandlerArgs" : "hotspot-celcite"
                     },
                     {
-                        "pitch": 2,
-                        "yaw": 265,
+                        "pitch": -4,
+                        "yaw": 242,
                         "cssClass": "hotspot-bombainfusion hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Bombas de Infusion Space y Compact Plus",
-                        "clickHandlerFunc" : hello,
+                        "clickHandlerFunc" : ambulatorio,
+                        "clickHandlerArgs" : "hotspot-bombainfusion"
                     },
                     {
-                        "pitch": -10,
-                        "yaw": 255,
+                        "pitch": -3,
+                        "yaw": 305,
                         "cssClass": "hotspot-infusores hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Infusores Elastoméricos - EasyPump II",
-                        "clickHandlerFunc" : hello,
+                        "clickHandlerFunc" : ambulatorio,
+                        "clickHandlerArgs" : "hotspot-infusores"
+                    },
+                    {
+                        "pitch": -5,
+                        "yaw": 100,
+                        "cssClass": "hotspot-ecoflac hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Ecoflac®",
+                        "clickHandlerFunc" : ambulatorio,
+                        "clickHandlerArgs" : "hotspot-ecoflac"
+                    },
+                    {
+                        "pitch": -5,
+                        "yaw": 80,
+                        "cssClass": "hotspot-prontosan hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Prontosan®",
+                        "clickHandlerFunc" : ambulatorio,
+                        "clickHandlerArgs" : "hotspot-prontosan"
                     }
                 ]
             },
@@ -178,11 +200,43 @@
         }
     });
 
-function hello (event, args){
-    console.log(args);    
+    function readTextFile(file, callback) {
+        var rawFile = new XMLHttpRequest();
+        rawFile.overrideMimeType("application/json");
+        rawFile.open("GET", file, true);
+        rawFile.onreadystatechange = function() {
+            if (rawFile.readyState === 4 && rawFile.status == "200") {
+                callback(rawFile.responseText);
+            }
+        }
+        rawFile.send(null);
+    }
+
+function ambulatorio (event, args){
+    //console.log(args);
+    document.getElementById("item-title").textContent='';
+    document.getElementById("item-description").textContent='';
+    document.getElementById("item-image").src='';
+    readTextFile("/json/ambulatorio.json", function(text){
+        var lista = JSON.parse(text);
+        for(var k in lista) {
+            var productos = lista[k];
+            for(item of productos){
+                if(item.id === args){
+                    document.getElementById("item-title").textContent=item.title;
+                    document.getElementById("item-description").textContent=item.description;
+                    document.getElementById("item-image").src='/images/productos/ambulatorios/'+item.image;
+                    document.getElementById("item-link1").href=item.link1;
+                    document.getElementById("item-link2").href=item.link2;
+                    document.getElementById("item-link3").href=item.link3;
+                }
+            }
+        }
+    });    
     var myModal = new bootstrap.Modal(document.getElementById("ModalItem"), {});
     myModal.show();
 }
+
     // Hot spot creation function
 function hotspot(hotSpotDiv, args) {
     hotSpotDiv.classList.add('custom-tooltip');
@@ -196,13 +250,12 @@ function hotspot(hotSpotDiv, args) {
 
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
 <div id="ModalItem" class="modal" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">Bombas de Infusion Space y Compact Plus</h5>
+          <h5 id="item-title" class="modal-title"></h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -213,15 +266,16 @@ function hotspot(hotSpotDiv, args) {
                 <div class="row align-items-start">
                   <div class="col-6">
                     <figure class="figure">
-                        <img class="figure-img img-fluid rounded back-img" src="images/productos/ambulatorios/03AIS_BombasInfusionSpace.png">
+                        <img id="item-image" class="figure-img img-fluid rounded back-img" src="">
                     </figure>
                   </div>
                   <div class="col-6">
                     <h4 class="subtitle">Descripción del producto</h4>
-                    <p>Equipos diseños para el desarrollo de diferentes terapias ambulatorias como administracion de terapias nutricionales,
-                        adminitracion de terapias medicamentos y citostáticos con el uso de líneas especializadas en el sistema cerrado que
-                        previenen los derrames y aerosoles.</p>
+                    <p id="item-description"></p>
                     <h4 class="subtitle">Links de contenido</h4>
+                    <a id="item-link1" class="btn btn-primary" target="_blank" href="#">Link</a>
+                    <a id="item-link2" class="btn btn-primary" target="_blank" href="#">Link</a>
+                    <a id="item-link3" class="btn btn-primary" target="_blank" href="#">Link</a>
                   </div>
                 </div>
             </div>

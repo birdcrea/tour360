@@ -89,6 +89,18 @@ main{
     background: url('icons/05CC_InfusoresElastoméricosEasyPump.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
+.hotspot-ecoflac {
+    height: 100px;
+    width: 100px;
+    background: url('icons/04BC_Ecoflac.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-prontosan {
+    height: 100px;
+    width: 100px;
+    background: url('icons/06HC_PRONTOSAN.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
 div.custom-tooltip span {
     visibility: hidden;
     position: absolute;
@@ -121,7 +133,7 @@ div.custom-tooltip:hover span:after {
     color: #fff;
 }
 .modal .modal-content{
-    background-color: rgba(0, 0, 0, 0.185);
+    background-color: rgba(0, 0, 0, 0.4);
     color: #fff;
     border: 1px solid #FFF;
 }
