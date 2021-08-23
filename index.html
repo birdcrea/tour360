@@ -217,7 +217,7 @@ function ambulatorio (event, args){
     document.getElementById("item-title").textContent='';
     document.getElementById("item-description").textContent='';
     document.getElementById("item-image").src='';
-    readTextFile("/json/ambulatorio.json", function(text){
+    readTextFile("json/ambulatorio.json", function(text){
         var lista = JSON.parse(text);
         for(var k in lista) {
             var productos = lista[k];
