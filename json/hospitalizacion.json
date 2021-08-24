@@ -4,7 +4,7 @@
             "id" : "hotspot-fluidoterapia",
             "title" : "Fluidoterapia - Isofundin",
             "description" : "Isofundin® tiene una composición de electrolitos isotónicos que se asemeja al plasma humano; utilizado para la sustición de pérdidas de fluídos extracelulares en caso de deshidratación isotónica, donde la acidoses esté presente o sea inminente. Indicado en bebés desde 28 días, niños, adolescentes, adultos y ancianos.",
-            "image" : "03CC_Sterofundin.png",
+            "image" : "03CC_Sterofundin1.png",
             "link1" : "",
             "link2" : "",
             "link3" : ""
@@ -53,6 +53,6 @@
             "link1" : "",
             "link2" : "",
             "link3" : ""
-        },
+        }
     ]
 }

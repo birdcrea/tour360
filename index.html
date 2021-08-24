@@ -101,7 +101,7 @@
                     },
                     {
                         "pitch": -10,
-                        "yaw": 245,
+                        "yaw": -50,
                         "cssClass": "hotspot-fluidoterapia hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Fluidoterapia - Isofundin",
@@ -345,6 +345,7 @@ function hospitalizacion (event, args){
     document.getElementById("item-image").src='';
     readTextFile("json/hospitalizacion.json", function(text){
         var lista = JSON.parse(text);
+        console.log(lista);
         for(var k in lista) {
             var productos = lista[k];
             for(item of productos){
