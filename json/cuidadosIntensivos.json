@@ -1,0 +1,67 @@
+{
+    "productos":[
+        {
+            "id" : "hotspot-bombaspace",
+            "title" : "Bombas Space - Space Glucose Control",
+            "description" : "Equipos de ultima generacion, desarrollados para realizar la transferencia de soliciones enterales y parenterales por vias permitidas, en unidades criticas, capacidad de uso de modulo space glucose control, que contribuye con el control de la glucosa de pacientes criticos evitando las hiper e hipo glicemias",
+            "image" : "01HC_BombasSpace.png",
+            "link1" : "https://www.youtube.com/watch?v=dpiqF2SSwUk",
+            "link2" : "https://www.youtube.com/watch?v=mOv5SZhvWOg",
+            "link3" : ""
+        },
+        {
+            "id" : "hotspot-intrapurplus",
+            "title" : "Intrapur plus®",
+            "description" : "Filtro de infusión  con membrana de material Polietersulfona de 0,2 micras para la retención de partículas, bacterias, endotoxinas y hongos",
+            "image" : "02HC_IntrapurPlus.png",
+            "link1" : "https://www.bbraun.pe/es/productos-y-terapias/catalogo-de-productos/terapia-de-infusion/accesorios-de-infusionytransfusion/filtros/filtros-de-inyeccioneinfusion.html",
+            "link2" : "",
+            "link3" : ""
+        },
+        {
+            "id" : "hotspot-certofix",
+            "title" : "Catéter Venoso Central - Certofix",
+            "description" : "Catéter Venoso Central para la cateterización de la vena cava según técnica Seldinger, y/o ténica Seldinger Modificada (cánula valvulada); que permite el control de la posición de la punta del catéter mediante derivación al ECG intraauricular a través de la guía de metálica.</br>La gama de productos Certofix® de B. Braun ofrece una cartera completa de CVC para pacientes adultos, pediátricos y para administrar terapias de alto flujo.",
+            "image" : "03HC_Certofix.png",
+            "link1" : "www.youtube.com/watch?v=23jEvbSCGIM",
+            "link2" : "www.youtube.com/watch?v=Trh5spmSNmw"
+        },
+        {
+            "id" : "hotspot-enbraceStandar",
+            "title" : "Enbrace Standard / Enbrace Standard Fibra",
+            "description" : "Nnutriente completo isotónico polimérico normocalórico listo para usar, indicado para necesidades nutricionales incrementadas y suplementado con con epa y dha, proteínas de alto valor biológico, en presentación con fibra y sin fibra para propósitos médicos especiales.",
+            "image" : "04HC_EnbraceStandar.png",
+            "link1" : "",
+            "link2" : "",
+            "link3" : ""
+        },
+        {
+            "id" : "hotspot-diapact",
+            "title" : "Diapact - Crrt ",
+            "description" : "Terapia renal continua, equipo de reemplazo renal para pacientes agudos, permite realizar procedimientos de hemodialisis y hemofiltracion, plasmaferesis",
+            "image" : "05HC_Diapact.png",
+            "link1" : "https://www.youtube.com/watch?v=HN369HtF4oo&list=PLJZIV48gknKLknkq9p5HjxJ66If8zDGjj",
+            "link2" : "https://www.youtube.com/watch?v=668zb9f0OVI",
+            "link3" : ""
+        },
+        {
+            "id" : "hotspot-curacionheridas",
+            "title" : "Linea De Curacion De Heridas Bbraun",
+            "description" : "Linea completa para prevencion y curacion de heridas , como lesiones por presion, ulceras venosas, pie diabetico, dai, heridas post quirurgicas y oncologicas",
+            "image" : "06HC_CuracionHeridas.png",
+            "link1" : "https://www.youtube.com/watch?v=GtSjpuStd0M",
+            "link2" : "https://www.youtube.com/watch?v=izxxJx_McWQ",
+            "link3" : "https://youtu.be/H3TcxR6kH_Q"
+        },
+        {
+            "id" : "hotspot-ecoflac",
+            "title" : "Ecoflac®",
+            "description" : "Ecoflac®, contenedor Sistema Cerrado de polietileno de baja densidad; colapsa sin necesidad de ingreso de aire, manteniendo la solución aislada del medio ambiente.",
+            "image" : "07BC_Ecoflac.png",
+            "link1" : "",
+            "link2" : "",
+            "link3" : ""
+        }
+
+    ]
+}
