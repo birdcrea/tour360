@@ -44,6 +44,24 @@
             "link1" : "https://www.youtube.com/watch?v=GtSjpuStd0M",
             "link2" : "https://www.youtube.com/watch?v=izxxJx_McWQ",
             "link3" : "https://youtu.be/H3TcxR6kH_Q"
+        },
+        {
+            "id" : "hotspot-linovera",
+            "title" : "Linovera",
+            "description" : "Linea completa para prevencion y curacion de heridas , como lesiones por presion, ulceras venosas, pie diabetico, dai, heridas post quirurgicas y oncologicas.",
+            "image" : "06HC_PRONTOSAN.png",
+            "link1" : "https://www.youtube.com/watch?v=GtSjpuStd0M",
+            "link2" : "https://www.youtube.com/watch?v=izxxJx_McWQ",
+            "link3" : "https://youtu.be/H3TcxR6kH_Q"
+        },
+        {
+            "id" : "hotspot-hemodiafiltracion",
+            "title" : "Hemodialisis - Hemodiafiltracion",
+            "description" : "Linea avalada por 20 años investigacion y experiencia, capaz de cumplir con cualquier requerimiento del paciente,  apoyado por un servicio técnico y logístico de calidad.",
+            "image" : "02_HEMODIAFILTRACION.png",
+            "link1" : "https://www.youtube.com/watch?v=vJ12DIDzFU8",
+            "link2" : "",
+            "link3" : ""
         }
     ]
 }

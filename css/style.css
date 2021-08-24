@@ -74,31 +74,43 @@ main{
 .hotspot-celcite {
     height: 100px;
     width: 100px;
-    background: url('icons/01AE_Celsite.png') rgba(255, 255, 255, 1);
+    background: url('icons/ambulatorios/01AE_Celsite.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 .hotspot-bombainfusion {
     height: 100px;
     width: 100px;
-    background: url('icons/03AIS_BombasInfusionSpace.png') rgba(255, 255, 255, 1);
+    background: url('icons/ambulatorios/03AIS_BombasInfusionSpace.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 .hotspot-infusores {
     height: 100px;
     width: 100px;
-    background: url('icons/05CC_InfusoresElastoméricosEasyPump.png') rgba(255, 255, 255, 1);
+    background: url('icons/ambulatorios/05CC_InfusoresElastoméricosEasyPump.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 .hotspot-ecoflac {
     height: 100px;
     width: 100px;
-    background: url('icons/04BC_Ecoflac.png') rgba(255, 255, 255, 1);
+    background: url('icons/ambulatorios/04BC_Ecoflac.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 .hotspot-prontosan {
     height: 100px;
     width: 100px;
-    background: url('icons/06HC_PRONTOSAN.png') rgba(255, 255, 255, 1);
+    background: url('icons/ambulatorios/06HC_PRONTOSAN.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-linovera {
+    height: 100px;
+    width: 100px;
+    background: url('icons/ambulatorios/06HC_LINOVERA.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-hemodiafiltracion {
+    height: 200px;
+    width: 200px;
+    background: url('icons/ambulatorios/02_HEMODIAFILTRACION.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 div.custom-tooltip span {

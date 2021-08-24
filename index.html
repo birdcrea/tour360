@@ -17,6 +17,9 @@
         <img width="180px" src="images/expo-bbraun.svg">
     </header>
     <div id="panorama" class="background full"></div>
+    <audio id="sound">
+        <source src="sound/sound.mp3">
+    </audio>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
@@ -95,7 +98,25 @@
                         "sceneId": "image1",
                         "targetYaw": -23,
                         "targetPitch": 2
-                    }
+                    },
+                    {
+                        "pitch": -10,
+                        "yaw": 265,
+                        "cssClass": "hotspot-celcite hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Cateter Port - Celsite",
+                        "clickHandlerFunc" : hospitalizacion,
+                        "clickHandlerArgs" : "hotspot-celcite"
+                    },
+                    {
+                        "pitch": -10,
+                        "yaw": 265,
+                        "cssClass": "hotspot-celcite hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Cateter Port - Celsite",
+                        "clickHandlerFunc" : hospitalizacion,
+                        "clickHandlerArgs" : "hotspot-celcite"
+                    },
                 ]
             },
             "image3": {
@@ -124,8 +145,17 @@
                         "clickHandlerArgs" : "hotspot-celcite"
                     },
                     {
-                        "pitch": -4,
-                        "yaw": 242,
+                        "pitch": -8,
+                        "yaw": 395,
+                        "cssClass": "hotspot-celcite hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Cateter Port - Celsite",
+                        "clickHandlerFunc" : ambulatorio,
+                        "clickHandlerArgs" : "hotspot-celcite"
+                    },
+                    {
+                        "pitch": 1,
+                        "yaw": 265,
                         "cssClass": "hotspot-bombainfusion hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Bombas de Infusion Space y Compact Plus",
@@ -133,8 +163,8 @@
                         "clickHandlerArgs" : "hotspot-bombainfusion"
                     },
                     {
-                        "pitch": -3,
-                        "yaw": 305,
+                        "pitch": -10,
+                        "yaw": 255,
                         "cssClass": "hotspot-infusores hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Infusores Elastoméricos - EasyPump II",
@@ -151,6 +181,15 @@
                         "clickHandlerArgs" : "hotspot-ecoflac"
                     },
                     {
+                        "pitch": 2,
+                        "yaw": 391,
+                        "cssClass": "hotspot-ecoflac hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Ecoflac®",
+                        "clickHandlerFunc" : ambulatorio,
+                        "clickHandlerArgs" : "hotspot-ecoflac"
+                    },
+                    {
                         "pitch": -5,
                         "yaw": 80,
                         "cssClass": "hotspot-prontosan hotspot-ring",
@@ -158,6 +197,24 @@
                         "createTooltipArgs": "Prontosan®",
                         "clickHandlerFunc" : ambulatorio,
                         "clickHandlerArgs" : "hotspot-prontosan"
+                    },
+                    {
+                        "pitch": -4,
+                        "yaw": 242,
+                        "cssClass": "hotspot-linovera hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Linovera®",
+                        "clickHandlerFunc" : ambulatorio,
+                        "clickHandlerArgs" : "hotspot-linovera"
+                    },
+                    {
+                        "pitch": -4,
+                        "yaw": 340,
+                        "cssClass": "hotspot-hemodiafiltracion hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Hemodiafiltracion",
+                        "clickHandlerFunc" : ambulatorio,
+                        "clickHandlerArgs" : "hotspot-hemodiafiltracion"
                     }
                 ]
             },
@@ -212,6 +269,15 @@
         rawFile.send(null);
     }
 
+window.onload = function() {
+        //accionPlay();
+    }
+    function accionPlay(){  
+        var sound = document.getElementById('sound');
+        sound.volume = 0.05;
+        sound.play();    
+    }
+
 function ambulatorio (event, args){
     //console.log(args);
     document.getElementById("item-title").textContent='';
@@ -226,6 +292,30 @@ function ambulatorio (event, args){
                     document.getElementById("item-title").textContent=item.title;
                     document.getElementById("item-description").textContent=item.description;
                     document.getElementById("item-image").src='images/productos/ambulatorios/'+item.image;
+                    document.getElementById("item-link1").href=item.link1;
+                    document.getElementById("item-link2").href=item.link2;
+                    document.getElementById("item-link3").href=item.link3;
+                }
+            }
+        }
+    });    
+    var myModal = new bootstrap.Modal(document.getElementById("ModalItem"), {});
+    myModal.show();
+}
+function hospitalizacion (event, args){
+    //console.log(args);
+    document.getElementById("item-title").textContent='';
+    document.getElementById("item-description").textContent='';
+    document.getElementById("item-image").src='';
+    readTextFile("json/hospitalizacion.json", function(text){
+        var lista = JSON.parse(text);
+        for(var k in lista) {
+            var productos = lista[k];
+            for(item of productos){
+                if(item.id === args){
+                    document.getElementById("item-title").textContent=item.title;
+                    document.getElementById("item-description").textContent=item.description;
+                    document.getElementById("item-image").src='images/productos/hospitalizacion/'+item.image;
                     document.getElementById("item-link1").href=item.link1;
                     document.getElementById("item-link2").href=item.link2;
                     document.getElementById("item-link3").href=item.link3;
