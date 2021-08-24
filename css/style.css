@@ -105,7 +105,7 @@ main{
 .hotspot-linovera {
     height: 100px;
     width: 100px;
-    background: url('icons/ambulatorios/06HC_LINOVERA.png') rgba(255, 255, 255, 1);
+    background: url('icons/ambulatorios/06OPM_CuracionHeridas.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 .hotspot-hemodiafiltracion {
@@ -119,6 +119,176 @@ main{
     height: 100px;
     width: 100px;
     background: url('icons/hospitalizacion/03CC_Sterofundin.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-compactplus{
+    height: 100px;
+    width: 100px;
+    background: url('icons/hospitalizacion/01AIS_BombasInfusomat.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-safetyw{
+    height: 100px;
+    width: 100px;
+    background: url('icons/hospitalizacion/02BC_IntrocanSafety.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-plusyspecial{
+    height: 100px;
+    width: 100px;
+    background: url('icons/hospitalizacion/04CN_Nutriflex.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-heridasbbraun{
+    height: 100px;
+    width: 100px;
+    background: url('icons/hospitalizacion/05OPM_CuracionHeridas.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+/*Operacion*/
+.hotspot-adtec{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/01AE_AdtecBipolar.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-adtec02{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/02AE_AdtecMonopolar.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-bipolaravanz{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/03AE_Caiman.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-yasargil{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/04AE_ClipAneurismaYasargil2.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-clipadora{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/04AE_Challenger.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-einsteinvision{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/06AE_EinsteinVision.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-newmotors{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/07AE_Acculan4.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-plasmafit{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/08AE_Excia.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-suministroesteril{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/10AE_InstrumentalQ.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-optilenemesh{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/11AE_LapfixOptileneMesh.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-fijadorcraneal{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/12AE_LyoplantOnlay_Craniofix.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-minop{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/13AE_NeuroendoscopiaMinop.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-bombaperfusora{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/14HC_BombaPerfusor.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-paracetamol{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/15HC_Paracetamol.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-gelofusine{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/16HC_Gelofusine.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-celsite{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/017AE_Celsite.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-ecoflacoper{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/20BC_Ecoflac.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+/*Cuidados Intensivos*/
+.hotspot-bombaspace{
+    height: 100px;
+    width: 100px;
+    background: url('icons/uci/01HC_BombasSpace.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-intrapurplus{
+    height: 100px;
+    width: 100px;
+    background: url('icons/uci/02HC_IntrapurPlus.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-certofix{
+    height: 100px;
+    width: 100px;
+    background: url('icons/uci/03HC_Certofix1.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-enbracestandar{
+    height: 100px;
+    width: 100px;
+    background: url('icons/uci/04HC_EnbraceStandar.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-diapact{
+    height: 100px;
+    width: 100px;
+    background: url('icons/uci/05HC_Diapact.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-curacionheridas{
+    height: 100px;
+    width: 100px;
+    background: url('icons/uci/06HC_LINOVERA.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-ecoflacciu{
+    height: 100px;
+    width: 100px;
+    background: url('icons/uci/07BC_Ecoflac.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 
