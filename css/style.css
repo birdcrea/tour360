@@ -121,8 +121,6 @@ main{
     background: url('icons/hospitalizacion/03CC_Sterofundin.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
-
-
 div.custom-tooltip span {
     visibility: hidden;
     position: absolute;
