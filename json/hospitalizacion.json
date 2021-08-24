@@ -48,11 +48,11 @@
         {
             "id" : "hotspot-ecoflac",
             "title" : "Ecoflac®",
-            "description" : "",
-            "image" : "06BC_Ecoflac.png",
+            "description" : "Ecoflac®, contenedor Sistema Cerrado de polietileno de baja densidad; colapsa sin necesidad de ingreso de aire, manteniendo la solución aislada del medio ambiente.",
+            "image" : "04BC_Ecoflac.png",
             "link1" : "",
             "link2" : "",
             "link3" : ""
-        }
+        },
     ]
 }
