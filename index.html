@@ -101,21 +101,57 @@
                     },
                     {
                         "pitch": -10,
-                        "yaw": 265,
-                        "cssClass": "hotspot-celcite hotspot-ring",
+                        "yaw": 245,
+                        "cssClass": "hotspot-fluidoterapia hotspot-ring",
                         "createTooltipFunc": hotspot,
-                        "createTooltipArgs": "Cateter Port - Celsite",
+                        "createTooltipArgs": "Fluidoterapia - Isofundin",
                         "clickHandlerFunc" : hospitalizacion,
-                        "clickHandlerArgs" : "hotspot-celcite"
+                        "clickHandlerArgs" : "hotspot-fluidoterapia"
                     },
                     {
                         "pitch": -10,
-                        "yaw": 265,
-                        "cssClass": "hotspot-celcite hotspot-ring",
+                        "yaw": 225,
+                        "cssClass": "hotspot-compactplus hotspot-ring",
                         "createTooltipFunc": hotspot,
-                        "createTooltipArgs": "Cateter Port - Celsite",
+                        "createTooltipArgs": "Bombas Infusomat y Perfusor Space / Compact Plus",
                         "clickHandlerFunc" : hospitalizacion,
-                        "clickHandlerArgs" : "hotspot-celcite"
+                        "clickHandlerArgs" : "hotspot-compactplus"
+                    },
+                    {
+                        "pitch": 1,
+                        "yaw": 265,
+                        "cssClass": "hotspot-safetyw hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Introcan Safety W",
+                        "clickHandlerFunc" : hospitalizacion,
+                        "clickHandlerArgs" : "hotspot-safetyw"
+                    },
+                    {
+                        "pitch": -10,
+                        "yaw": 255,
+                        "cssClass": "hotspot-plusyspecial hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Nutriflex Peri, Plus y Special",
+                        "clickHandlerFunc" : hospitalizacion,
+                        "clickHandlerArgs" : "hotspot-plusyspecial"
+                    },
+                    {
+                        "pitch": -10,
+                        "yaw": 285,
+                        "cssClass": "hotspot-heridasbbraun hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Linea De Curacion De Heridas Bbraun",
+                        "clickHandlerFunc" : hospitalizacion,
+                        "clickHandlerArgs" : "hotspot-heridasbbraun"
+                    },
+                    {
+                        "pitch": -10,
+                        "yaw": 295,
+                        "cssClass": "hotspot-ecoflac hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Ecoflac®",
+                        "clickHandlerFunc" : hospitalizacion,
+                        "clickHandlerArgs" : "hotspot-ecoflac"
                     },
                 ]
             },
@@ -327,6 +363,54 @@ function hospitalizacion (event, args){
     myModal.show();
 }
 
+function uci (event, args){
+    //console.log(args);
+    document.getElementById("item-title").textContent='';
+    document.getElementById("item-description").textContent='';
+    document.getElementById("item-image").src='';
+    readTextFile("json/cuidadosIntensivos.json", function(text){
+        var lista = JSON.parse(text);
+        for(var k in lista) {
+            var productos = lista[k];
+            for(item of productos){
+                if(item.id === args){
+                    document.getElementById("item-title").textContent=item.title;
+                    document.getElementById("item-description").textContent=item.description;
+                    document.getElementById("item-image").src='images/productos/uci/'+item.image;
+                    document.getElementById("item-link1").href=item.link1;
+                    document.getElementById("item-link2").href=item.link2;
+                    document.getElementById("item-link3").href=item.link3;
+                }
+            }
+        }
+    });    
+    var myModal = new bootstrap.Modal(document.getElementById("ModalItem"), {});
+    myModal.show();
+}
+function operaciones (event, args){
+    //console.log(args);
+    document.getElementById("item-title").textContent='';
+    document.getElementById("item-description").textContent='';
+    document.getElementById("item-image").src='';
+    readTextFile("json/operacion.json", function(text){
+        var lista = JSON.parse(text);
+        for(var k in lista) {
+            var productos = lista[k];
+            for(item of productos){
+                if(item.id === args){
+                    document.getElementById("item-title").textContent=item.title;
+                    document.getElementById("item-description").textContent=item.description;
+                    document.getElementById("item-image").src='images/productos/operaciones/'+item.image;
+                    document.getElementById("item-link1").href=item.link1;
+                    document.getElementById("item-link2").href=item.link2;
+                    document.getElementById("item-link3").href=item.link3;
+                }
+            }
+        }
+    });    
+    var myModal = new bootstrap.Modal(document.getElementById("ModalItem"), {});
+    myModal.show();
+}
     // Hot spot creation function
 function hotspot(hotSpotDiv, args) {
     hotSpotDiv.classList.add('custom-tooltip');

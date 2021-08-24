@@ -121,6 +121,7 @@ main{
     background: url('icons/hospitalizacion/03CC_Sterofundin.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
+<<<<<<< HEAD
 .hotspot-compactplus{
     height: 100px;
     width: 100px;
@@ -293,6 +294,8 @@ main{
 }
 
 
+=======
+>>>>>>> e44b14f91fef65871b15dcf618e773779785daec
 div.custom-tooltip span {
     visibility: hidden;
     position: absolute;
