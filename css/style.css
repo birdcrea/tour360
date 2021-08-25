@@ -152,7 +152,7 @@ main{
     background: url('icons/operaciones/01AE_AdtecBipolar.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
-.hotspot-adtec02{
+.hotspot-adtecMonopolar{
     height: 100px;
     width: 100px;
     background: url('icons/operaciones/02AE_AdtecMonopolar.png') rgba(255, 255, 255, 1);

@@ -7,25 +7,17 @@
             "image" : "01AE_AdtecBipolar.png",
             "link1" : "https://www.bbraun.es/es/products/b/adtec-monopolar.html",
             "link2" : "https://www.bbraun.es/es/products/b/adtec-bipolar.html",
-            "link3" : "https://www.bbraun.es/es/products/b/adtec-mini.html",
-            "link4" : "https://www.youtube.com/watch?v=k4GgpnWoDQg",
-            "link5" : "https://www.youtube.com/watch?v=y10etFSIGYo",
-            "link6" : "https://www.youtube.com/watch?v=pBlqZonLuCs",
-            "link7" : "https://www.youtube.com/watch?v=FaBYQ68JIM8"
+            "link3" : "https://www.bbraun.es/es/products/b/adtec-mini.html"
         },
         {
-            "id" : "hotspot-adtec02",
+            "id" : "hotspot-adtecMonopolar",
             "title" : "AdTec® Monopolar - AdTec® Bipolar - AdTec®  Mini",
             "description" : "Los instrumentos reutilizables AdTec®brindan seguridad tanto al paciente y al cirujano gracias a su alta calidad del aislante PEEK en vástago y mango.",
             "image" : "02AE_AdtecMonopolar.png",
             "link1" : "https://www.bbraun.es/es/products/b/adtec-monopolar.html",
             "link2" : "https://www.bbraun.es/es/products/b/adtec-bipolar.html",
-            "link3" : "https://www.bbraun.es/es/products/b/adtec-mini.html",
-            "link4" : "https://www.youtube.com/watch?v=k4GgpnWoDQg",
-            "link5" : "https://www.youtube.com/watch?v=y10etFSIGYo",
-            "link6" : "https://www.youtube.com/watch?v=pBlqZonLuCs",
-            "link7" : "https://www.youtube.com/watch?v=FaBYQ68JIM8"
-        },
+            "link3" : "https://www.bbraun.es/es/products/b/adtec-mini.html"
+            },
         {
             "id" : "hotspot-bipolaravanz",
             "title" : "Caiman® - Tecnología Bipolar Avanzada",
@@ -36,10 +28,10 @@
             "link3" : "https://www.youtube.com/watch?v=JheqUdRWDRA"
         },
         {
-            "id" : "hotspot-yasargil ",
+            "id" : "hotspot-yasargil",
             "title" : "Clips De Aneursma - Yasargil Gold Estandard",
             "description" : "53 años de seguridad y confianza, Yasargil es reconocido como el gold standard a nivel mundial para el tratamiento de aneurismas",
-            "image" : "04AE_ClipAneurismaYasargil.png",
+            "image" : "04AE_ClipAneurismaYasargil2.png",
             "link1" : "https://www.bbraun.com/en/products-and-therapies/services/bbraun-apps.html",
             "link2" : "https://www.youtube.com/watch?v=jlGleP8d7W8",
             "link3" : "https://www.bbraun.com/en/products/b0/yasargil-aneurysmclipsystem.html"
@@ -48,7 +40,7 @@
             "id" : "hotspot-clipadora",
             "title" : "Clip DS XL - Apendicectomía - Clipadora Challenger",
             "description" : "Clip DS XL proporciona la colocación firme en el apéndice. Tecnología innovadora. Challenger: Primer aplicador de clips multifire impulsado por aire.",
-            "image" : "05AE_ClipDSChallenger.png",
+            "image" : "04AE_Challenger.png",
             "link1" : "https://www.bbraun.es/es/products/b0/challenger-ti-p-ti.html",
             "link2" : "https://www.youtube.com/watch?v=ZNOylRGWyiA",
             "link3" : "https://www.bbraun.com/en/products-and-therapies/services/bbraun-apps.html"
@@ -66,7 +58,7 @@
             "id" : "hotspot-newmotors",
             "title" : "Nuevo Sistema De Motores - Elan4 Y Acculan4",
             "description" : "Nueva generación que brindan un nuevo concepto de performance, ergonomía y longetividad. Elan4 - Craniotomo Acculan4 - Perforador, Sierras y Dermatomo",
-            "image" : "07AE_ElanAculan.png",
+            "image" : "07AE_Acculan4.png",
             "link1" : "https://www.youtube.com/watch?v=vc0h5oEynLw",
             "link2" : "https://www.bbraun.com/en/products/b2/elan-4.html",
             "link3" : "https://www.bbraun.com/en/products/b1/acculan-4.html"
@@ -101,7 +93,7 @@
         {
             "id" : "hotspot-fijadorcraneal",
             "title" : "Sustitutos De Duramadre Y Fijador Craneal",
-            "description" : "Lyoplant Onlay es un nuevo sustituto de duramadre de doble capa a base de pericardio bovino.</br>Es altamente resistente, autoadhesivo y tambien suturable",
+            "description" : "Lyoplant Onlay es un nuevo sustituto de duramadre de doble capa a base de pericardio bovino.Es altamente resistente, autoadhesivo y tambien suturable",
             "image" : "19AE_LyoplantOnlay.png",
             "link1" : "https://www.bbraun.com/en/products-and-therapies/neurosurgery.html",
             "link2" : "https://www.bbraun.com/en/products/b0/craniofix-2.html",
@@ -110,7 +102,7 @@
         {
             "id" : "hotspot-minop",
             "title" : "Lideres en Neuroendoscopía - MINOP",
-            "description" : "La cirugía minimamente invasiva cada vez mas usada</br>Accesos:</br>Intraventricular</br>Asistido</br>Transnasal</br>La magia esta en el diseño",
+            "description" :"La cirugía minimamente invasiva cada vez mas usada.  Accesos: Intraventricular, Asistido Transnasal, La magia esta en el diseño",
             "image" : "13AE_NeuroendoscopiaMinop.png",
             "link1" : "https://www.bbraun.com/en/products/b0/minop.html",
             "link2" : "https://play.google.com/store/apps/details?id=com.bbraun.aaf_neuroendoscopy&hl=es_US&gl=US",
