@@ -549,13 +549,13 @@ function accionOpenModal(){
 
 
 function ambulatorio (event, args){
-    console.log(args);
+    //console.log(args);
     document.getElementById("item-title").textContent='';
     document.getElementById("item-description").textContent='';
     document.getElementById("item-image").src='';
     readTextFile("json/ambulatorio.json", function(text){
         var lista = JSON.parse(text);
-        console.log(lista);
+        //console.log(lista);
         for(var k in lista) {
             var productos = lista[k];
             for(item of productos){
@@ -583,7 +583,7 @@ function hospitalizacion (event, args){
     document.getElementById("item-image").src='';
     readTextFile("json/hospitalizacion.json", function(text){
         var lista = JSON.parse(text);
-        console.log(lista);
+        //console.log(lista);
         for(var k in lista) {
             var productos = lista[k];
             for(item of productos){
