@@ -2,7 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Exposición 360°</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
@@ -364,9 +365,18 @@
                         "yaw": 325,
                         "cssClass": "hotspot-adtec hotspot-ring",
                         "createTooltipFunc": hotspot,
-                        "createTooltipArgs": "Adtec",
+                        "createTooltipArgs": "AdtecBipolar",
                         "clickHandlerFunc" : operaciones,
                         "clickHandlerArgs" : "hotspot-adtec"
+                    },
+                    {
+                        "pitch": 1,
+                        "yaw": 310,
+                        "cssClass": "hotspot-adtecMonopolar hotspot-ring",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "AdtecMonopolar",
+                        "clickHandlerFunc" : operaciones,
+                        "clickHandlerArgs" : "hotspot-adtecMonopolar"
                     },
                     {
                         "pitch": -4,
@@ -474,7 +484,7 @@
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Paracetamol",
                         "clickHandlerFunc" : operaciones,
-                        "clickHandlerArgs" : "hotspot-adparacetamoltec"
+                        "clickHandlerArgs" : "hotspot-paracetamol"
                     },
                     {
                         "pitch": -9,
@@ -516,9 +526,8 @@ function readTextFile(file, callback) {
         if (rawFile.readyState === 4 && rawFile.status == "200") {
             callback(rawFile.responseText);
         }
+        rawFile.send(null);
     }
-    rawFile.send(null);
-}
 
 window.onload = function() {
     accionPlay();
@@ -657,6 +666,7 @@ function hotspot(hotSpotDiv, args) {
 
 </script>
 
+
 <div id="ModalItem" class="modal" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content">
@@ -690,5 +700,6 @@ function hotspot(hotSpotDiv, args) {
       </div>
     </div>
   </div>
+
 </body>
 </html>
