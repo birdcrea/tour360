@@ -158,7 +158,7 @@ main{
     background: url('icons/operaciones/02AE_AdtecMonopolar.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
-.hotspot-bipolaravanz{
+.hotspot-caiman{
     height: 100px;
     width: 100px;
     background: url('icons/operaciones/03AE_Caiman.png') rgba(255, 255, 255, 1);
@@ -195,6 +195,12 @@ main{
     border-radius: 50%;
 }
 .hotspot-suministroesteril{
+    height: 100px;
+    width: 100px;
+    background: url('icons/operaciones/10_AE_CONTENEDORES.png') rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.hotspot-instrumentalq{
     height: 100px;
     width: 100px;
     background: url('icons/operaciones/10AE_InstrumentalQ.png') rgba(255, 255, 255, 1);

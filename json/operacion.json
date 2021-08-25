@@ -19,7 +19,7 @@
             "link3" : "https://www.bbraun.es/es/products/b/adtec-mini.html"
             },
         {
-            "id" : "hotspot-bipolaravanz",
+            "id" : "hotspot-caiman",
             "title" : "Caiman® - Tecnología Bipolar Avanzada",
             "description" : "Caiman es un instrumento bipolar avanzado de sellado y corte de grandes vasos que se puede utilizar en cirugía mínimamente invasiva y cirugía abierta.",
             "image" : "03AE_Caiman.png",
@@ -74,6 +74,15 @@
         },
         {
             "id" : "hotspot-suministroesteril",
+            "title" : "Instrumental y Contenedores - Lider en Suministro Esteril",
+            "description" : "Mucho más que un proveedor: un socio que escucha y aporta ideas, que comprende las necesidades y requisitos del cliente y los atiende a un alto nivel.",
+            "image" : "10_AE_CONTENEDORES.png",
+            "link1" : "https://www.bbraun.es/es/productos-y-terapias/cirugia-abierta-general/instrumental-quirurgico.html",
+            "link2" : "https://www.bbraun.com/en/products-and-therapies/services/sterile-supply/sterile-container/aesculap-aicon.html#",
+            "link3" : "https://www.youtube.com/watch?v=woMf-9-hqKw"
+        },
+        {
+            "id" : "hotspot-instrumentalq",
             "title" : "Instrumental y Contenedores - Lider en Suministro Esteril",
             "description" : "Mucho más que un proveedor: un socio que escucha y aporta ideas, que comprende las necesidades y requisitos del cliente y los atiende a un alto nivel.",
             "image" : "10AE_InstrumentalQ.png",
