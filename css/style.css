@@ -105,7 +105,7 @@ main{
 .hotspot-linovera {
     height: 100px;
     width: 100px;
-    background: url('icons/ambulatorios/06OPM_CuracionHeridas.png') rgba(255, 255, 255, 1);
+    background: url('icons/ambulatorios/06HC_LINOVERA.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 .hotspot-hemodiafiltracion {
@@ -124,7 +124,7 @@ main{
 .hotspot-compactplus{
     height: 100px;
     width: 100px;
-    background: url('icons/hospitalizacion/01AIS_BombasInfusomat.png') rgba(255, 255, 255, 1);
+    background: url('icons/hospitalizacion/03AIS_BombasInfusionSpace.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 .hotspot-safetyw{
@@ -142,7 +142,7 @@ main{
 .hotspot-heridasbbraun{
     height: 100px;
     width: 100px;
-    background: url('icons/hospitalizacion/05OPM_CuracionHeridas.png') rgba(255, 255, 255, 1);
+    background: url('icons/hospitalizacion/05HC_PRONTOSAN.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 /*Operacion*/
@@ -209,7 +209,7 @@ main{
 .hotspot-fijadorcraneal{
     height: 100px;
     width: 100px;
-    background: url('icons/operaciones/12AE_LyoplantOnlay_Craniofix.png') rgba(255, 255, 255, 1);
+    background: url('icons/operaciones/19AE_LyoplantOnlay.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 .hotspot-minop{
@@ -239,7 +239,7 @@ main{
 .hotspot-celsite{
     height: 100px;
     width: 100px;
-    background: url('icons/operaciones/017AE_Celsite.png') rgba(255, 255, 255, 1);
+    background: url('icons/operaciones/17AE_ CELSITE.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 .hotspot-ecoflacoper{
