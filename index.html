@@ -28,7 +28,6 @@
     </audio>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <script>
     pannellum.viewer('panorama', {   
@@ -516,17 +515,17 @@
         }
     });
 
-function readTextFile(file, callback) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.overrideMimeType("application/json");
-    rawFile.open("GET", file, true);
-    rawFile.onreadystatechange = function() {
-        if (rawFile.readyState === 4 && rawFile.status == "200") {
-            callback(rawFile.responseText);
+    function readTextFile(file, callback) {
+        var rawFile = new XMLHttpRequest();
+        rawFile.overrideMimeType("application/json");
+        rawFile.open("GET", file, true);
+        rawFile.onreadystatechange = function() {
+            if (rawFile.readyState === 4 && rawFile.status == "200") {
+                callback(rawFile.responseText);
+            }
         }
         rawFile.send(null);
     }
-}
 
 window.onload = function() {
     accionPlay();
@@ -550,13 +549,13 @@ function accionOpenModal(){
 
 
 function ambulatorio (event, args){
-    //console.log(args);
-    accionOpenModal();
+    console.log(args);
     document.getElementById("item-title").textContent='';
     document.getElementById("item-description").textContent='';
     document.getElementById("item-image").src='';
     readTextFile("json/ambulatorio.json", function(text){
         var lista = JSON.parse(text);
+        console.log(lista);
         for(var k in lista) {
             var productos = lista[k];
             for(item of productos){
@@ -573,7 +572,9 @@ function ambulatorio (event, args){
     });    
     var myModal = new bootstrap.Modal(document.getElementById("ModalItem"), {});
     myModal.show();
+    //accionOpenModal();
 }
+
 function hospitalizacion (event, args){
     //console.log(args);
     accionOpenModal();
