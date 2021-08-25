@@ -2,8 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Exposición 360°</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
@@ -20,8 +19,17 @@
     <audio id="sound">
         <source src="sound/sound.mp3">
     </audio>
+    <audio id="item-click">
+        <source src="sound/click02.mp3">
+    </audio>
+    <audio id="item-modal">
+        <source src="sound/open.mp3">
+    </audio>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
 
 <script>
     pannellum.viewer('panorama', {   
@@ -352,8 +360,8 @@
                         "targetPitch": 2
                     },
                     {
-                        "pitch": -4,
-                        "yaw": 310,
+                        "pitch": -5,
+                        "yaw": 325,
                         "cssClass": "hotspot-adtec hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Adtec",
@@ -370,8 +378,8 @@
                         "clickHandlerArgs" : "hotspot-bipolaravanz"
                     },
                     {
-                        "pitch": -4,
-                        "yaw": 350,
+                        "pitch": -15,
+                        "yaw": 389,
                         "cssClass": "hotspot-yasargil hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Yasargil",
@@ -388,8 +396,8 @@
                         "clickHandlerArgs" : "hotspot-clipadora"
                     },
                     {
-                        "pitch": -4,
-                        "yaw": 310,
+                        "pitch": -6,
+                        "yaw": 374,
                         "cssClass": "hotspot-einsteinvision hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Einsteinvision",
@@ -451,8 +459,8 @@
                         "clickHandlerArgs" : "hotspot-minop"
                     },
                     {
-                        "pitch": -4,
-                        "yaw": 170,
+                        "pitch": 1,
+                        "yaw": 337,
                         "cssClass": "hotspot-bombaperfusora hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Bombaperfusora",
@@ -460,8 +468,8 @@
                         "clickHandlerArgs" : "hotspot-bombaperfusora"
                     },
                     {
-                        "pitch": -4,
-                        "yaw": 215,
+                        "pitch": -9,
+                        "yaw": 80,
                         "cssClass": "hotspot-paracetamol hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Paracetamol",
@@ -469,8 +477,8 @@
                         "clickHandlerArgs" : "hotspot-adparacetamoltec"
                     },
                     {
-                        "pitch": -4,
-                        "yaw": 250,
+                        "pitch": -9,
+                        "yaw": 95,
                         "cssClass": "hotspot-gelofusine hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Gelofusine",
@@ -479,7 +487,7 @@
                     },
                     {
                         "pitch": -4,
-                        "yaw": 205,
+                        "yaw": 385,
                         "cssClass": "hotspot-celsite hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Celsite",
@@ -487,8 +495,8 @@
                         "clickHandlerArgs" : "hotspot-celsite"
                     },
                     {
-                        "pitch": -4,
-                        "yaw": 200,
+                        "pitch": 4,
+                        "yaw": 380,
                         "cssClass": "hotspot-ecoflacoper hotspot-ring",
                         "createTooltipFunc": hotspot,
                         "createTooltipArgs": "Ecoflacoper",
@@ -500,29 +508,42 @@
         }
     });
 
-    function readTextFile(file, callback) {
-        var rawFile = new XMLHttpRequest();
-        rawFile.overrideMimeType("application/json");
-        rawFile.open("GET", file, true);
-        rawFile.onreadystatechange = function() {
-            if (rawFile.readyState === 4 && rawFile.status == "200") {
-                callback(rawFile.responseText);
-            }
+function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
         }
-        rawFile.send(null);
     }
+    rawFile.send(null);
+}
 
 window.onload = function() {
-        //accionPlay();
-    }
-    function accionPlay(){  
-        var sound = document.getElementById('sound');
-        sound.volume = 0.05;
-        sound.play();    
-    }
+    accionPlay();
+}
+function accionPlay(){  
+    var sound = document.getElementById('sound');
+    sound.volume = 0.05;
+    sound.play();    
+}
+
+function accionClickPlay(){  
+    var sound = document.getElementById('item-click');
+    //sound.volume = 0.05;
+    sound.play();    
+}
+function accionOpenModal(){  
+    var sound = document.getElementById('item-modal');
+    //sound.volume = 0.05;
+    sound.play();    
+}
+
 
 function ambulatorio (event, args){
     //console.log(args);
+    accionOpenModal();
     document.getElementById("item-title").textContent='';
     document.getElementById("item-description").textContent='';
     document.getElementById("item-image").src='';
@@ -547,6 +568,7 @@ function ambulatorio (event, args){
 }
 function hospitalizacion (event, args){
     //console.log(args);
+    accionOpenModal();
     document.getElementById("item-title").textContent='';
     document.getElementById("item-description").textContent='';
     document.getElementById("item-image").src='';
@@ -573,6 +595,7 @@ function hospitalizacion (event, args){
 
 function uci (event, args){
     //console.log(args);
+    accionOpenModal();
     document.getElementById("item-title").textContent='';
     document.getElementById("item-description").textContent='';
     document.getElementById("item-image").src='';
@@ -597,6 +620,7 @@ function uci (event, args){
 }
 function operaciones (event, args){
     //console.log(args);
+    accionOpenModal();
     document.getElementById("item-title").textContent='';
     document.getElementById("item-description").textContent='';
     document.getElementById("item-image").src='';
@@ -619,7 +643,7 @@ function operaciones (event, args){
     var myModal = new bootstrap.Modal(document.getElementById("ModalItem"), {});
     myModal.show();
 }
-    // Hot spot creation function
+// Hot spot creation function
 function hotspot(hotSpotDiv, args) {
     hotSpotDiv.classList.add('custom-tooltip');
     var span = document.createElement('span');
@@ -628,10 +652,10 @@ function hotspot(hotSpotDiv, args) {
     span.style.width = span.scrollWidth - 20 + 'px';
     span.style.marginLeft = -(span.scrollWidth - hotSpotDiv.offsetWidth) / 2 + 'px';
     span.style.marginTop = -span.scrollHeight - 12 + 'px';
+    hotSpotDiv.addEventListener('mouseover', accionClickPlay, 'false');
 }
 
 </script>
-
 
 <div id="ModalItem" class="modal" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -666,6 +690,5 @@ function hotspot(hotSpotDiv, args) {
       </div>
     </div>
   </div>
-
 </body>
 </html>
