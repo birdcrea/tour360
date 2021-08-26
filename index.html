@@ -54,38 +54,46 @@
                         "pitch": -10,
                         "yaw": 51,
                         "type": "scene",
-                        "text": "Ir a Sala de Hospitalización",
                         "sceneId": "image2",
                         "targetYaw": -23,
-                        "targetPitch": 2
+                        "targetPitch": 2,
+                        "cssClass": "hotspot-escene hotspot-circle",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Ir a Sala de Hospitalización",
                     },
                     
                     {
                         "pitch": -8,
                         "yaw": 140,
                         "type": "scene",
-                        "text": "Ir a Terapias Ambulatorias",
                         "sceneId": "image3",
                         "targetYaw": -23,
-                        "targetPitch": 2
+                        "targetPitch": 2,
+                        "cssClass": "hotspot-escene hotspot-circle",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Ir a Terapias Ambulatorias",
                     },
                     {
                         "pitch": -8,
                         "yaw": -35,
                         "type": "scene",
-                        "text": "Ir a Unidad de Cuidados Intensivos",
                         "sceneId": "image4",
                         "targetYaw": -23,
-                        "targetPitch": 2
+                        "targetPitch": 2,
+                        "cssClass": "hotspot-escene hotspot-circle",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Ir a Unidad de Cuidados Intensivos",
                     },
                     {
                         "pitch": -8,
                         "yaw": -115,
                         "type": "scene",
-                        "text": "Ir a Sala de Operaciones",
                         "sceneId": "image5",
                         "targetYaw": -23,
-                        "targetPitch": 2
+                        "targetPitch": 2,
+                        "cssClass": "hotspot-escene hotspot-circle",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Ir a Sala de Operaciones",
                     }
                 ]
             },
@@ -101,10 +109,12 @@
                         "pitch": -8,
                         "yaw": 182,
                         "type": "scene",
-                        "text": "Regresar a Pasillo",
                         "sceneId": "image1",
                         "targetYaw": -23,
-                        "targetPitch": 2
+                        "targetPitch": 2,
+                        "cssClass": "hotspot-escene hotspot-circle",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Regresar a Pasillo",
                     },
                     {
                         "pitch": -6,
@@ -173,10 +183,12 @@
                         "pitch": -8,
                         "yaw": 182,
                         "type": "scene",
-                        "text": "Regresar a Pasillo",
                         "sceneId": "image1",
                         "targetYaw": -23,
-                        "targetPitch": 2
+                        "targetPitch": 2,
+                        "cssClass": "hotspot-escene hotspot-circle",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Regresar a Pasillo",
                     },
                     {
                         "pitch": -9,
@@ -254,10 +266,12 @@
                         "pitch": -8,
                         "yaw": 182,
                         "type": "scene",
-                        "text": "Regresar a Pasillo",
                         "sceneId": "image1",
                         "targetYaw": -23,
-                        "targetPitch": 2
+                        "targetPitch": 2,
+                        "cssClass": "hotspot-escene hotspot-circle",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Regresar a Pasillo",
                     },
                     {
                         "pitch": -2,
@@ -335,10 +349,12 @@
                         "pitch": -8,
                         "yaw": 182,
                         "type": "scene",
-                        "text": "Regresar a Pasillo",
                         "sceneId": "image1",
                         "targetYaw": -23,
-                        "targetPitch": 2
+                        "targetPitch": 2,
+                        "cssClass": "hotspot-escene hotspot-circle",
+                        "createTooltipFunc": hotspot,
+                        "createTooltipArgs": "Regresar a Pasillo",
                     },
                     {
                         "pitch": -7,
@@ -655,6 +671,9 @@ function hotspot(hotSpotDiv, args) {
     span.style.marginTop = -span.scrollHeight - 12 + 'px';
     hotSpotDiv.addEventListener('mouseover', accionClickPlay, 'false');
 }
+
+// Hot spot creation function
+
 
 </script>
 
