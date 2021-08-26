@@ -351,3 +351,10 @@ div.custom-tooltip:hover span:after {
     color: #00a990;
     margin-bottom: 1rem;
 }
+@media (max-width: 480px) { 
+    .pnlm-hotspot-base{
+        width: 40px !important;
+        height: 40px !important;
+        background-size: contain;
+    }
+ }
