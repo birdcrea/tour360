@@ -280,8 +280,8 @@ main{
     border-radius: 50%;
 }
 .hotspot-diapact{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background: url('icons/uci/05HC_Diapact.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
