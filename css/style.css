@@ -47,7 +47,7 @@ main{
 .hotspot-ring{
     border: 3px solid #00a990;
 }
-.hotspot-ring::after {
+.hotspot-ring:hover::after {
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
