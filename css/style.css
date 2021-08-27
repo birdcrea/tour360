@@ -54,7 +54,7 @@ main{
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
-    border: 6px solid #fff;
+    border: 6px solid #00a990;
     position: absolute;
     z-index: -1;
     top: 50%;
