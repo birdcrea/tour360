@@ -9,7 +9,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" >
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
@@ -548,34 +548,32 @@ function accionOpenModal(){
     //sound.volume = 0.05;
     sound.play();    
 }
-function createLink(url, type){
-    switch (type) {
-        case 'link':
-            var icon = '<i class="fas fa-link"></i>';
-            break;
-        case 'video':
-            var icon = '<i class="fab fa-youtube"></i>';
-            break;
-        case 'pdf':
-            var icon = '<i class="fas fa-file-pdf"></i>';
-            break;
-    }
-    console.log(icon);
-    // Create the text node for anchor element.
-    
-    var a = document.createElement('a');   
-    // Append the text node to anchor element.
-    a.appendChild(innerHTML(icon)); 
-      
-    // Set the title.
-    a.title = "This is Link"; 
-      
-    // Set the href property.
-    a.href = "https://www.geeksforgeeks.org"; 
-      
-    // Append the anchor element to the body.
-    var contentLink = document.getElementById('links');
-    contentLink.appendChild(a); 
+function createLink(links){
+
+       if(links.length !== 0){
+           const div = document.getElementById('links');
+           for(var index in links){
+               var type = links[index].type;
+               var url = links[index].url;
+               switch (type) {
+                   case 'link':
+                       var icon = '<i class="fa fa-external-link-square" aria-hidden="true"></i>';
+                       var classType = 'btn-url';
+                       break;
+                   case 'video':
+                       var icon = '<i class="fa fa-youtube-play" aria-hidden="true"></i>';
+                       var classType = 'btn-video';
+                       break;
+                   case 'pdf':
+                       var icon = '<i class="fa fa-file-pdf-o" aria-hidden="true"></i>';
+                       var classType = 'btn-pdf';
+                       break;
+               }
+               div.className = 'list-group-item';
+               div.innerHTML += '<a class="btn btn-primary '+ classType + '" target="_blank" href="' + url + '">' + icon + '</a>';
+           }
+           document.getElementById('links').appendChild(div);
+       }
 }
 
 function ambulatorio (event, args){
@@ -594,11 +592,7 @@ function ambulatorio (event, args){
                     document.getElementById("item-title").textContent=item.title;
                     document.getElementById("item-description").textContent=item.description;
                     document.getElementById("item-image").src='images/productos/ambulatorios/'+item.image;
-                    document.getElementById("item-link1").href=item.link1;
-                    document.getElementById("item-link2").href=item.link2;
-                    document.getElementById("item-link3").href=item.link3;
-                    console.log(item.link1);
-                    createLink(item.link1.url, item.link1.type);
+                    createLink(item.links);
                 }
             }
         }
@@ -624,9 +618,7 @@ function hospitalizacion (event, args){
                     document.getElementById("item-title").textContent=item.title;
                     document.getElementById("item-description").textContent=item.description;
                     document.getElementById("item-image").src='images/productos/hospitalizacion/'+item.image;
-                    document.getElementById("item-link1").href=item.link1;
-                    document.getElementById("item-link2").href=item.link2;
-                    document.getElementById("item-link3").href=item.link3;
+                    createLink(item.links);
                 }
             }
         }
@@ -650,9 +642,7 @@ function uci (event, args){
                     document.getElementById("item-title").textContent=item.title;
                     document.getElementById("item-description").textContent=item.description;
                     document.getElementById("item-image").src='images/productos/uci/'+item.image;
-                    document.getElementById("item-link1").href=item.link1;
-                    document.getElementById("item-link2").href=item.link2;
-                    document.getElementById("item-link3").href=item.link3;
+                    createLink(item.links);
                 }
             }
         }
@@ -679,9 +669,7 @@ function operaciones (event, args){
                     document.getElementById("item-title").textContent=item.title;
                     document.getElementById("item-description").textContent=item.description;
                     document.getElementById("item-image").src='images/productos/operaciones/'+item.image;
-                    document.getElementById("item-link1").href=item.link1;
-                    document.getElementById("item-link2").href=item.link2;
-                    document.getElementById("item-link3").href=item.link3;
+                    createLink(item.links);
                 }
             }
         }
@@ -729,10 +717,7 @@ function hotspot(hotSpotDiv, args) {
                     <h4 class="subtitle">Descripción del producto</h4>
                     <p id="item-description"></p>
                     <h4 class="subtitle">Links de contenido</h4>
-                    <div id="links"></div>
-                    <a id="item-link1" class="btn btn-primary" target="_blank" href="#">Link</a>
-                    <a id="item-link2" class="btn btn-primary" target="_blank" href="#">Link</a>
-                    <a id="item-link3" class="btn btn-primary" target="_blank" href="#">Link</a>
+                    <div id="links" class="list-group list-group-horizontal"></div>
                   </div>
                 </div>
             </div>

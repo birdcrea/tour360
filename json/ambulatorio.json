@@ -1,63 +1,99 @@
 {
-    "productos":[
+  "productos": [
+    {
+      "id": "hotspot-celcite",
+      "title": "Cateter Port - Celsite®",
+      "description": "Catéter Implantable con puerto de uso clínico hospitalario. Material del catéter: Poliuretano,Silicona. Material del reservorio: Titanio-Polisulfona.",
+      "image": "01AE_Celsite.png",
+      "links": [
         {
-            "id" : "hotspot-celcite",
-            "title" : "Cateter Port - Celsite®",
-            "description" : "Catéter Implantable con puerto de uso clínico hospitalario. Material del catéter: Poliuretano,Silicona. Material del reservorio: Titanio-Polisulfona.",
-            "image" : "01AE_Celsite.png",
-            "link1" : 
-                    {  
-                    "type" : "link",
-                    "url" : "https://www.bbraun.es/es/products/b0/reservorios-implantablesdeaccesocelsite.html"
-                    }
-                ,
-            "link2" : "https://www.bbraun.com/en/products/b/celsite-psu.html",
-            "link3" : "https://www.bbraun.es/es/pacientes/reservorios-implantables-de-acceso.html"
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b0/reservorios-implantablesdeaccesocelsite.html"
         },
         {
-            "id" : "hotspot-bombainfusion",
-            "title" : "Bombas de Infusion Space y Compact Plus",
-            "description" : "Equipos diseños para el desarrollo de diferentes terapias ambulatorias como administracion de terapias nutricionales, adminitracion de terapias medicamentos y citostáticos con el uso de líneas especializadas en el sistema cerrado que previenen los derrames y aerosoles.",
-            "image" : "03AIS_BombasInfusionSpace.png",
-            "link1" : "https://www.youtube.com/watch?v=aims33_VbEw",
-            "link2" : "https://www.youtube.com/watch?v=QrMkqOXKwo4",
-            "link3" : "https://www.youtube.com/watch?v=xlriCPVNSGg"
+          "type": "link",
+          "url": "https://www.bbraun.com/en/products/b/celsite-psu.html"
         },
         {
-            "id" : "hotspot-infusores",
-            "title" : "Infusores Elastoméricos - EasyPump II",
-            "description" : "Dispositivos para la infusión contínua vía endovenosa, subcutánea y epidural de medicamentos mediante un mecanismo pasivo, a través de un balón elastómero de silicona que permite la administración de la solución. La bomba de infusión elastomérica Easypump® II está diseñada para ofrecer al personal médico, químicos farmacéuticos y personal de enfermería la posibilidad de dispensar cantidades predeterminadas de una medicación a los pacientes de manera contínua y precisa, ya sea en el hospital, de forma ambulatoria o en casa.",
-            "image" : "05CC_InfusoresElastoméricosEasyPump2.png",
-            "link1" : "https://youtu.be/UyFW0P0MBc8",
-            "link2" : "https://www.youtube.com/watch?v=6JI_prxOm-U",
-            "link3" : ""
-        },
-        {
-            "id" : "hotspot-ecoflac",
-            "title" : "Ecoflac®",
-            "description" : "Ecoflac®, contenedor Sistema Cerrado de polietileno de baja densidad; colapsa sin necesidad de ingreso de aire, manteniendo la solución aislada del medio ambiente.",
-            "image" : "04BC_Ecoflac.png",
-            "link1" : "",
-            "link2" : "",
-            "link3" : ""
-        },
-        {
-            "id" : "hotspot-linovera",
-            "title" : "Linovera",
-            "description" : "Linea completa para prevencion y curacion de heridas , como lesiones por presion, ulceras venosas, pie diabetico, dai, heridas post quirurgicas y oncologicas.",
-            "image" : "05HC_LINOVERA.png",
-            "link1" : "https://www.youtube.com/watch?v=GtSjpuStd0M",
-            "link2" : "https://www.youtube.com/watch?v=izxxJx_McWQ",
-            "link3" : "https://youtu.be/H3TcxR6kH_Q"
-        },
-        {
-            "id" : "hotspot-hemodiafiltracion",
-            "title" : "Hemodialisis - Hemodiafiltracion",
-            "description" : "Linea avalada por 20 años investigacion y experiencia, capaz de cumplir con cualquier requerimiento del paciente,  apoyado por un servicio técnico y logístico de calidad.",
-            "image" : "02_HEMODIAFILTRACION.png",
-            "link1" : "https://www.youtube.com/watch?v=vJ12DIDzFU8",
-            "link2" : "",
-            "link3" : ""
+          "type": "link",
+          "url": "https://www.bbraun.es/es/pacientes/reservorios-implantables-de-acceso.html"
         }
-    ]
+      ]
+    },
+    {
+      "id": "hotspot-bombainfusion",
+      "title": "Bombas de Infusion Space y Compact Plus",
+      "description": "Equipos diseños para el desarrollo de diferentes terapias ambulatorias como administracion de terapias nutricionales, adminitracion de terapias medicamentos y citostáticos con el uso de líneas especializadas en el sistema cerrado que previenen los derrames y aerosoles.",
+      "image": "03AIS_BombasInfusionSpace.png",
+      "links": [
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=aims33_VbEw"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=QrMkqOXKwo4"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=xlriCPVNSGg"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-infusores",
+      "title": "Infusores Elastoméricos - EasyPump II",
+      "description": "Dispositivos para la infusión contínua vía endovenosa, subcutánea y epidural de medicamentos mediante un mecanismo pasivo, a través de un balón elastómero de silicona que permite la administración de la solución. La bomba de infusión elastomérica Easypump® II está diseñada para ofrecer al personal médico, químicos farmacéuticos y personal de enfermería la posibilidad de dispensar cantidades predeterminadas de una medicación a los pacientes de manera contínua y precisa, ya sea en el hospital, de forma ambulatoria o en casa.",
+      "image": "05CC_InfusoresElastoméricosEasyPump2.png",
+      "links": [
+        {
+          "type": "video",
+          "url": "https://youtu.be/UyFW0P0MBc8"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=6JI_prxOm-U"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-ecoflac",
+      "title": "Ecoflac®",
+      "description": "Ecoflac®, contenedor Sistema Cerrado de polietileno de baja densidad; colapsa sin necesidad de ingreso de aire, manteniendo la solución aislada del medio ambiente.",
+      "image": "04BC_Ecoflac.png",
+      "links": []
+    },
+    {
+      "id": "hotspot-linovera",
+      "title": "Linovera",
+      "description": "Linea completa para prevencion y curacion de heridas , como lesiones por presion, ulceras venosas, pie diabetico, dai, heridas post quirurgicas y oncologicas.",
+      "image": "05HC_LINOVERA.png",
+      "links": [
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=GtSjpuStd0M"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=izxxJx_McWQ"
+        },
+        {
+          "type": "video",
+          "url": "https://youtu.be/H3TcxR6kH_Q"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-hemodiafiltracion",
+      "title": "Hemodialisis - Hemodiafiltracion",
+      "description": "Linea avalada por 20 años investigacion y experiencia, capaz de cumplir con cualquier requerimiento del paciente,  apoyado por un servicio técnico y logístico de calidad.",
+      "image": "02_HEMODIAFILTRACION.png",
+      "links": [
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=vJ12DIDzFU8"
+        }
+      ]
+    }
+  ]
 }

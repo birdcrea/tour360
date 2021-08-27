@@ -5,54 +5,73 @@
             "title" : "Fluidoterapia - Isofundin",
             "description" : "Isofundin® tiene una composición de electrolitos isotónicos que se asemeja al plasma humano; utilizado para la sustición de pérdidas de fluídos extracelulares en caso de deshidratación isotónica, donde la acidoses esté presente o sea inminente. Indicado en bebés desde 28 días, niños, adolescentes, adultos y ancianos.",
             "image" : "03CC_Sterofundin1.png",
-            "link1" : "",
-            "link2" : "",
-            "link3" : ""
+            "links" : []
         },
         {
             "id" : "hotspot-compactplus",
             "title" : "Bombas Infusomat y Perfusor Space / Compact Plus",
             "description" : "Bombas de infusion y con jeringa, para pacientes neonatologicos, pediatricos y adultos, para terapias de administracion de soliciones parenterales y enterales, por vias clinicamente permitidas, uso de terapias especializadas, uso de librería de medicamentos - smart pump",
             "image" : "03AIS_BombasInfusionSpace.png",
-            "link1" : "https://www.youtube.com/watch?v=aims33_VbEw",
-            "link2" : "https://www.youtube.com/watch?v=kWGkWp4siWk",
-            "link3" : "https://www.youtube.com/watch?v=cwA26HesCX4"
+            "links": [
+                {
+                    "type": "link",
+                    "url": "https://www.youtube.com/watch?v=aims33_VbEw"
+                },
+                {
+                    "type": "link",
+                    "url": "https://www.youtube.com/watch?v=kWGkWp4siWk"
+                },
+                {
+                    "type": "link",
+                    "url": "https://www.youtube.com/watch?v=cwA26HesCX4"
+                }
+            ]
         },
         {
             "id" : "hotspot-safetyw",
             "title" : "Introcan Safety W",
             "description" : "Catéter endovenoso periférico con sistema de bioseguridad.",
             "image" : "02BC_IntrocanSafety.png",
-            "link1" : "https://www.youtube.com/watch?v=J188kqUBngc",
-            "link2" : "",
-            "link3" : ""
+            "links": [
+                {
+                    "type": "link",
+                    "url": "https://www.youtube.com/watch?v=J188kqUBngc"
+                }
+            ]
         },
         {
             "id" : "hotspot-plusyspecial",
             "title" : "Nutriflex Peri, Plus y Special",
             "description" : "Solución parenteral lista para usar , bolsa bicameral con aminoácidos , dextrosa y electrolitos  en 3 presentaciones  nutriflex peri vía periférica, y nutriflex plus y special para vía central.",
             "image" : "04CN_Nutriflex.png",
-            "link1" : "",
-            "link2" : "",
-            "link3" : ""
+            "links" : []
         },
         {
             "id" : "hotspot-heridasbbraun",
             "title" : "Linea De Curacion De Heridas Bbraun",
             "description" : "Linea completa para prevencion y curacion de heridas , como lesiones por presion, ulceras venosas, pie diabetico, dai, heridas post quirurgicas y oncologicas",
             "image" : "05HC_PRONTOSAN.png",
-            "link1" : "https://www.youtube.com/watch?v=GtSjpuStd0M",
-            "link2" : "https://www.youtube.com/watch?v=izxxJx_McWQ",
-            "link3" : "https://youtu.be/H3TcxR6kH_Q"
+            "links": [
+                {
+                    "type": "video",
+                    "url": "https://www.youtube.com/watch?v=GtSjpuStd0M"
+                },
+                {
+                    "type": "video",
+                    "url": "https://www.youtube.com/watch?v=izxxJx_McWQ"
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/H3TcxR6kH_Q"
+                }
+            ]
         },
         {
             "id" : "hotspot-ecoflac",
             "title" : "Ecoflac®",
             "description" : "Ecoflac®, contenedor Sistema Cerrado de polietileno de baja densidad; colapsa sin necesidad de ingreso de aire, manteniendo la solución aislada del medio ambiente.",
             "image" : "04BC_Ecoflac.png",
-            "link1" : "",
-            "link2" : "",
-            "link3" : ""
+            "links" : []
         }
     ]
 }

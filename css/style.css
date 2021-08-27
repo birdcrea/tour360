@@ -29,7 +29,7 @@ main{
 .pnlm-panorama-info{
     background-color: rgb(0 169 144);
     bottom: 0;
-    font-family: Arial;
+    font-family: Arial, serif;
     text-transform: uppercase;
 }
 .pnlm-title-box{
@@ -43,6 +43,25 @@ main{
     left: auto;
     z-index: 1;
     right: 10px;
+}
+.list-group-item{
+    background-color: transparent;
+    padding: 0;
+}
+.list-group-item .btn{
+    margin-right: 5px;
+}
+.btn-url{
+    background-color: #4983b5;
+    border-color: #4983b5;
+}
+.btn-video{
+    background-color: #d32322;
+    border-color: #d32322;
+}
+.btn-pdf{
+    background-color: #9c27b0;
+    border-color: #9c27b0;
 }
 .hotspot-escene{
     height: 100px;

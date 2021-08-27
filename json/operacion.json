@@ -1,169 +1,329 @@
 {
-    "productos":[
+  "productos": [
+    {
+      "id": "hotspot-adtec",
+      "title": "AdTec® Monopolar - AdTec® Bipolar - AdTec®  Mini",
+      "description": "Los instrumentos reutilizables AdTec®brindan seguridad tanto al paciente y al cirujano gracias a su alta calidad del aislante PEEK en vástago y mango.",
+      "image": "01AE_AdtecBipolar.png",
+      "links": [
         {
-            "id" : "hotspot-adtec",
-            "title" : "AdTec® Monopolar - AdTec® Bipolar - AdTec®  Mini",
-            "description" : "Los instrumentos reutilizables AdTec®brindan seguridad tanto al paciente y al cirujano gracias a su alta calidad del aislante PEEK en vástago y mango.",
-            "image" : "01AE_AdtecBipolar.png",
-            "link1" : "https://www.bbraun.es/es/products/b/adtec-monopolar.html",
-            "link2" : "https://www.bbraun.es/es/products/b/adtec-bipolar.html",
-            "link3" : "https://www.bbraun.es/es/products/b/adtec-mini.html"
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b/adtec-monopolar.html"
         },
         {
-            "id" : "hotspot-adtecMonopolar",
-            "title" : "AdTec® Monopolar - AdTec® Bipolar - AdTec®  Mini",
-            "description" : "Los instrumentos reutilizables AdTec®brindan seguridad tanto al paciente y al cirujano gracias a su alta calidad del aislante PEEK en vástago y mango.",
-            "image" : "02AE_AdtecMonopolar.png",
-            "link1" : "https://www.bbraun.es/es/products/b/adtec-monopolar.html",
-            "link2" : "https://www.bbraun.es/es/products/b/adtec-bipolar.html",
-            "link3" : "https://www.bbraun.es/es/products/b/adtec-mini.html"
-            },
-        {
-            "id" : "hotspot-caiman",
-            "title" : "Caiman® - Tecnología Bipolar Avanzada",
-            "description" : "Caiman es un instrumento bipolar avanzado de sellado y corte de grandes vasos que se puede utilizar en cirugía mínimamente invasiva y cirugía abierta.",
-            "image" : "03AE_Caiman.png",
-            "link1" : "https://www.bbraun.es/es/products/b/caiman.html",
-            "link2" : "https://www.youtube.com/watch?v=8Sty3C92_5M",
-            "link3" : "https://www.youtube.com/watch?v=JheqUdRWDRA"
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b/adtec-bipolar.html"
         },
         {
-            "id" : "hotspot-yasargil",
-            "title" : "Clips De Aneursma - Yasargil Gold Estandard",
-            "description" : "53 años de seguridad y confianza, Yasargil es reconocido como el gold standard a nivel mundial para el tratamiento de aneurismas",
-            "image" : "04AE_ClipAneurismaYasargil2.png",
-            "link1" : "https://www.bbraun.com/en/products-and-therapies/services/bbraun-apps.html",
-            "link2" : "https://www.youtube.com/watch?v=jlGleP8d7W8",
-            "link3" : "https://www.bbraun.com/en/products/b0/yasargil-aneurysmclipsystem.html"
-        },
-        {
-            "id" : "hotspot-clipadora",
-            "title" : "Clip DS XL - Apendicectomía - Clipadora Challenger",
-            "description" : "Clip DS XL proporciona la colocación firme en el apéndice. Tecnología innovadora. Challenger: Primer aplicador de clips multifire impulsado por aire.",
-            "image" : "04AE_Challenger.png",
-            "link1" : "https://www.bbraun.es/es/products/b0/challenger-ti-p-ti.html",
-            "link2" : "https://www.youtube.com/watch?v=ZNOylRGWyiA",
-            "link3" : "https://www.bbraun.com/en/products-and-therapies/services/bbraun-apps.html"
-        },
-        {
-            "id" : "hotspot-einsteinvision",
-            "title" : "Einstein Vision 3.0 Torre De Laparoscopia",
-            "description" : "Tecnologia 2D-3D una misma plataforma. El sistema Einstein Vision 3D, Aesculap ofrece una solución innovadora para la cirugía laparoscópica convencional",
-            "image" : "06AE_EinsteinVision.png",
-            "link1" : "https://www.bbraun.es/es/products/b51/einstein-vision.html",
-            "link2" : "https://www.youtube.com/watch?v=_0-iA7tIbtQ",
-            "link3" : "https://www.bbraun.es/es/productos-y-terapias/cirugia-laparoscopica.html"
-        },
-        {
-            "id" : "hotspot-newmotors",
-            "title" : "Nuevo Sistema De Motores - Elan4 Y Acculan4",
-            "description" : "Nueva generación que brindan un nuevo concepto de performance, ergonomía y longetividad. Elan4 - Craniotomo Acculan4 - Perforador, Sierras y Dermatomo",
-            "image" : "07AE_Acculan4.png",
-            "link1" : "https://www.youtube.com/watch?v=vc0h5oEynLw",
-            "link2" : "https://www.bbraun.com/en/products/b2/elan-4.html",
-            "link3" : "https://www.bbraun.com/en/products/b1/acculan-4.html"
-        },
-        {
-            "id" : "hotspot-plasmafit",
-            "title" : "Protesis De Cadera - Excia T & Plasmafit",
-            "description" : "Protesis de altisima calidad, hecha de titanio y plasmapore. Un cotilo de polipropileno mezclado con vitamina E y cabezas de matal y ceramica.",
-            "image" : "08AE_Excia.png",
-            "link1" : "https://www.bbraun.com/en/products/b1/excia-t-hip-stem.html",
-            "link2" : "https://www.bbraun.com/en/products/b0/vitelene.html",
-            "link3" : "https://www.bbraun.com/en/products/b0/plasmafit-cementlessacetabularcupsystem.html"
-        },
-        {
-            "id" : "hotspot-suministroesteril",
-            "title" : "Instrumental y Contenedores - Lider en Suministro Esteril",
-            "description" : "Mucho más que un proveedor: un socio que escucha y aporta ideas, que comprende las necesidades y requisitos del cliente y los atiende a un alto nivel.",
-            "image" : "10_AE_CONTENEDORES.png",
-            "link1" : "https://www.bbraun.es/es/productos-y-terapias/cirugia-abierta-general/instrumental-quirurgico.html",
-            "link2" : "https://www.bbraun.com/en/products-and-therapies/services/sterile-supply/sterile-container/aesculap-aicon.html#",
-            "link3" : "https://www.youtube.com/watch?v=woMf-9-hqKw"
-        },
-        {
-            "id" : "hotspot-instrumentalq",
-            "title" : "Instrumental y Contenedores - Lider en Suministro Esteril",
-            "description" : "Mucho más que un proveedor: un socio que escucha y aporta ideas, que comprende las necesidades y requisitos del cliente y los atiende a un alto nivel.",
-            "image" : "10AE_InstrumentalQ.png",
-            "link1" : "https://www.bbraun.es/es/productos-y-terapias/cirugia-abierta-general/instrumental-quirurgico.html",
-            "link2" : "https://www.bbraun.com/en/products-and-therapies/services/sterile-supply/sterile-container/aesculap-aicon.html#",
-            "link3" : "https://www.youtube.com/watch?v=woMf-9-hqKw"
-        },
-        {
-            "id" : "hotspot-optilenemesh",
-            "title" : "Histoacryl®  Lap Fix - Optilene® Mesh",
-            "description" : "Aplicador Laparoscópico de histoacryl para la fijación de mallas en la reparación de hernias.      Reduce el riesgo de dolor post-quirúrgico. ",
-            "image" : "11AE_LapfixOptileneMesh.png",
-            "link1" : "https://www.bbraun.es/es/products/b0/optilene-mesh.html",
-            "link2" : "https://www.youtube.com/watch?v=xrM7TjIqDsY",
-            "link3" : "https://www.bbraun.es/es/products/b0/histoacryl.html"
-        },
-        {
-            "id" : "hotspot-fijadorcraneal",
-            "title" : "Sustitutos De Duramadre Y Fijador Craneal",
-            "description" : "Lyoplant Onlay es un nuevo sustituto de duramadre de doble capa a base de pericardio bovino.Es altamente resistente, autoadhesivo y tambien suturable",
-            "image" : "19AE_LyoplantOnlay.png",
-            "link1" : "https://www.bbraun.com/en/products-and-therapies/neurosurgery.html",
-            "link2" : "https://www.bbraun.com/en/products/b0/craniofix-2.html",
-            "link3" : "https://www.bbraun.com/en/products-and-therapies/neurosurgery/dura-substitution.html"
-        },
-        {
-            "id" : "hotspot-minop",
-            "title" : "Lideres en Neuroendoscopía - MINOP",
-            "description" :"La cirugía minimamente invasiva cada vez mas usada.  Accesos: Intraventricular, Asistido Transnasal, La magia esta en el diseño",
-            "image" : "13AE_NeuroendoscopiaMinop.png",
-            "link1" : "https://www.bbraun.com/en/products/b0/minop.html",
-            "link2" : "https://play.google.com/store/apps/details?id=com.bbraun.aaf_neuroendoscopy&hl=es_US&gl=US",
-            "link3" : "https://apps.apple.com/gb/app/aesculap-neurosurgery-main/id1038806033?l=en"
-        },
-        {
-            "id" : "hotspot-bombaperfusora",
-            "title" : "Bomba Perfusora Space - Tci / Pca",
-            "description" : "Bomba de infusion multi-terapia, desarrollado para terapias de infusión en unidades criticas y salas de operaciones de facil transporre, software instalado para uso de tci y pca, uso para terapias tiva a traves de calculo de dosis",
-            "image" : "14HC_BombaPerfusor.png",
-            "link1" : "https://www.youtube.com/watch?v=LAGsQebknWM",
-            "link2" : "https://www.youtube.com/watch?v=bqnhg_mvpS0&pp=ugMICgJlcxABGAE%3D",
-            "link3" : "https://www.youtube.com/watch?v=jRpTggKGl4Y",
-            "link4" : "https://www.youtube.com/watch?v=5PAJksINkoc"
-        },
-        {
-            "id" : "hotspot-paracetamol",
-            "title" : "Paracetamol IV 10mg/mL",
-            "description" : "Paracetamol IV 10mg/mL  en envase Ecoflac® “listo para usar” indicado para el tratamiento a corto plazo del dolor moderado y de la fiebre.",
-            "image" : "15HC_Paracetamol.png",
-            "link1" : "",
-            "link2" : "",
-            "link3" : ""
-        },
-        {
-            "id" : "hotspot-gelofusine",
-            "title" : "Reemplazo De Volumen De Plasma - Gelofusine 4%",
-            "description" : "Gelatina Succinilada / Gelatina Fluida Modificada al 4%, Fluido coloidal de reemplazo de volumen de plasma, indicado para la prevención y tratamiento de la hipovolemia absoluta y relativa. También se puede utilizar para prevenir la hipotensión, y cebado de equipos para circulación extracorporea y máquinas de hemodialisis.",
-            "image" : "16HC_Gelofusine.png",
-            "link1" : "",
-            "link2" : "",
-            "link3" : ""
-        },
-        {
-            "id" : "hotspot-celsite",
-            "title" : "Cateter Port - Celsite®",
-            "description" : "Catéter Implantable con puerto de uso clínico hospitalario. Material del catéter: Poliuretano,Silicona. Material del reservorio: Titanio-Polisulfona.",
-            "image" : "17AE_ CELSITE.png",
-            "link1" : "https://www.bbraun.es/es/products/b0/reservorios-implantablesdeaccesocelsite.html",
-            "link2" : "https://www.bbraun.com/en/products/b/celsite-psu.html",
-            "link3" : "https://www.bbraun.es/es/pacientes/reservorios-implantables-de-acceso.html",
-            "link4" : "https://relaunch.bkc.bbraun.com/display/bbwiki561/Ports+-+Non-Venous+Implantation"
-        },
-        {
-            "id" : "hotspot-ecoflacoper",
-            "title" : "Ecoflac®",
-            "description" : "Ecoflac®, contenedor Sistema Cerrado de polietileno de baja densidad; colapsa sin necesidad de ingreso de aire, manteniendo la solución aislada del medio ambiente.",
-            "image" : "20BC_Ecoflac.png",
-            "link1" : "",
-            "link2" : "",
-            "link3" : ""
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b/adtec-mini.html"
         }
-    
-    ]
+      ]
+    },
+    {
+      "id": "hotspot-adtecMonopolar",
+      "title": "AdTec® Monopolar - AdTec® Bipolar - AdTec®  Mini",
+      "description": "Los instrumentos reutilizables AdTec®brindan seguridad tanto al paciente y al cirujano gracias a su alta calidad del aislante PEEK en vástago y mango.",
+      "image": "02AE_AdtecMonopolar.png",
+      "links": [
+        {
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b/adtec-monopolar.html"
+        },
+        {
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b/adtec-bipolar.html"
+        },
+        {
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b/adtec-mini.html"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-caiman",
+      "title": "Caiman® - Tecnología Bipolar Avanzada",
+      "description": "Caiman es un instrumento bipolar avanzado de sellado y corte de grandes vasos que se puede utilizar en cirugía mínimamente invasiva y cirugía abierta.",
+      "image": "03AE_Caiman.png",
+      "links": [
+        {
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b/caiman.html"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=8Sty3C92_5M"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=JheqUdRWDRA"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-yasargil",
+      "title": "Clips De Aneursma - Yasargil Gold Estandard",
+      "description": "53 años de seguridad y confianza, Yasargil es reconocido como el gold standard a nivel mundial para el tratamiento de aneurismas",
+      "image": "04AE_ClipAneurismaYasargil2.png",
+      "links": [
+        {
+          "type": "link",
+          "url": "https://www.bbraun.com/en/products-and-therapies/services/bbraun-apps.html"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=jlGleP8d7W8"
+        },
+        {
+          "type": "url",
+          "url": "https://www.bbraun.com/en/products/b0/yasargil-aneurysmclipsystem.html"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-clipadora",
+      "title": "Clip DS XL - Apendicectomía - Clipadora Challenger",
+      "description": "Clip DS XL proporciona la colocación firme en el apéndice. Tecnología innovadora. Challenger: Primer aplicador de clips multifire impulsado por aire.",
+      "image": "04AE_Challenger.png",
+      "links": [
+        {
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b0/challenger-ti-p-ti.html"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ZNOylRGWyiA"
+        },
+        {
+          "type": "url",
+          "url": "https://www.bbraun.com/en/products-and-therapies/services/bbraun-apps.html"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-einsteinvision",
+      "title": "Einstein Vision 3.0 Torre De Laparoscopia",
+      "description": "Tecnologia 2D-3D una misma plataforma. El sistema Einstein Vision 3D, Aesculap ofrece una solución innovadora para la cirugía laparoscópica convencional",
+      "image": "06AE_EinsteinVision.png",
+      "links": [
+        {
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b51/einstein-vision.html"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=_0-iA7tIbtQ"
+        },
+        {
+          "type": "url",
+          "url": "https://www.bbraun.es/es/productos-y-terapias/cirugia-laparoscopica.html"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-newmotors",
+      "title": "Nuevo Sistema De Motores - Elan4 Y Acculan4",
+      "description": "Nueva generación que brindan un nuevo concepto de performance, ergonomía y longetividad. Elan4 - Craniotomo Acculan4 - Perforador, Sierras y Dermatomo",
+      "image": "07AE_Acculan4.png",
+      "links": [
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=vc0h5oEynLw"
+        },
+        {
+          "type": "link",
+          "url": "https://www.bbraun.com/en/products/b2/elan-4.html"
+        },
+        {
+          "type": "url",
+          "url": "https://www.bbraun.com/en/products/b1/acculan-4.html"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-plasmafit",
+      "title": "Protesis De Cadera - Excia T & Plasmafit",
+      "description": "Protesis de altisima calidad, hecha de titanio y plasmapore. Un cotilo de polipropileno mezclado con vitamina E y cabezas de matal y ceramica.",
+      "image": "08AE_Excia.png",
+      "links": [
+        {
+          "type": "link",
+          "url": "https://www.bbraun.com/en/products/b1/excia-t-hip-stem.html"
+        },
+        {
+          "type": "link",
+          "url": "https://www.bbraun.com/en/products/b0/vitelene.html"
+        },
+        {
+          "type": "link",
+          "url": "https://www.bbraun.com/en/products/b0/plasmafit-cementlessacetabularcupsystem.html"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-suministroesteril",
+      "title": "Instrumental y Contenedores - Lider en Suministro Esteril",
+      "description": "Mucho más que un proveedor: un socio que escucha y aporta ideas, que comprende las necesidades y requisitos del cliente y los atiende a un alto nivel.",
+      "image": "10_AE_CONTENEDORES.png",
+      "links": [
+        {
+          "type": "link",
+          "url": "https://www.bbraun.es/es/productos-y-terapias/cirugia-abierta-general/instrumental-quirurgico.html"
+        },
+        {
+          "type": "link",
+          "url": "https://www.bbraun.com/en/products-and-therapies/services/sterile-supply/sterile-container/aesculap-aicon.html"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=woMf-9-hqKw"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-instrumentalq",
+      "title": "Instrumental y Contenedores - Lider en Suministro Esteril",
+      "description": "Mucho más que un proveedor: un socio que escucha y aporta ideas, que comprende las necesidades y requisitos del cliente y los atiende a un alto nivel.",
+      "image": "10AE_InstrumentalQ.png",
+      "links": [
+        {
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b0/optilene-mesh.html"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=xrM7TjIqDsY"
+        },
+        {
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b0/histoacryl.html"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-optilenemesh",
+      "title": "Histoacryl®  Lap Fix - Optilene® Mesh",
+      "description": "Aplicador Laparoscópico de histoacryl para la fijación de mallas en la reparación de hernias.      Reduce el riesgo de dolor post-quirúrgico. ",
+      "image": "11AE_LapfixOptileneMesh.png",
+      "links": [
+        {
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b0/optilene-mesh.html"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=xrM7TjIqDsY"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-fijadorcraneal",
+      "title": "Sustitutos De Duramadre Y Fijador Craneal",
+      "description": "Lyoplant Onlay es un nuevo sustituto de duramadre de doble capa a base de pericardio bovino.Es altamente resistente, autoadhesivo y tambien suturable",
+      "image": "19AE_LyoplantOnlay.png",
+      "links": [
+        {
+          "type": "link",
+          "url": "https://www.bbraun.com/en/products-and-therapies/neurosurgery.html"
+        },
+        {
+          "type": "link",
+          "url": "https://www.bbraun.com/en/products/b0/craniofix-2.html"
+        },
+        {
+          "type": "link",
+          "url": "https://www.bbraun.com/en/products-and-therapies/neurosurgery/dura-substitution.html"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-minop",
+      "title": "Lideres en Neuroendoscopía - MINOP",
+      "description": "La cirugía minimamente invasiva cada vez mas usada.  Accesos: Intraventricular, Asistido Transnasal, La magia esta en el diseño",
+      "image": "13AE_NeuroendoscopiaMinop.png",
+      "links": [
+        {
+          "type": "link",
+          "url": "https://www.bbraun.com/en/products/b0/minop.html"
+        },
+        {
+          "type": "link",
+          "url": "https://play.google.com/store/apps/details?id=com.bbraun.aaf_neuroendoscopy&hl=es_US&gl=US"
+        },
+        {
+          "type": "link",
+          "url": "https://apps.apple.com/gb/app/aesculap-neurosurgery-main/id1038806033?l=en"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-bombaperfusora",
+      "title": "Bomba Perfusora Space - Tci / Pca",
+      "description": "Bomba de infusion multi-terapia, desarrollado para terapias de infusión en unidades criticas y salas de operaciones de facil transporre, software instalado para uso de tci y pca, uso para terapias tiva a traves de calculo de dosis",
+      "image": "14HC_BombaPerfusor.png",
+      "links": [
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=LAGsQebknWM"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=bqnhg_mvpS0&pp=ugMICgJlcxABGAE%3D"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=jRpTggKGl4Y"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=5PAJksINkoc"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-paracetamol",
+      "title": "Paracetamol IV 10mg/mL",
+      "description": "Paracetamol IV 10mg/mL  en envase Ecoflac® “listo para usar” indicado para el tratamiento a corto plazo del dolor moderado y de la fiebre.",
+      "image": "15HC_Paracetamol.png",
+      "links": []
+    },
+    {
+      "id": "hotspot-gelofusine",
+      "title": "Reemplazo De Volumen De Plasma - Gelofusine 4%",
+      "description": "Gelatina Succinilada / Gelatina Fluida Modificada al 4%, Fluido coloidal de reemplazo de volumen de plasma, indicado para la prevención y tratamiento de la hipovolemia absoluta y relativa. También se puede utilizar para prevenir la hipotensión, y cebado de equipos para circulación extracorporea y máquinas de hemodialisis.",
+      "image": "16HC_Gelofusine.png",
+      "links": []
+    },
+    {
+      "id": "hotspot-celsite",
+      "title": "Cateter Port - Celsite®",
+      "description": "Catéter Implantable con puerto de uso clínico hospitalario. Material del catéter: Poliuretano,Silicona. Material del reservorio: Titanio-Polisulfona.",
+      "image": "17AE_ CELSITE.png",
+      "links": [
+        {
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b0/reservorios-implantablesdeaccesocelsite.html"
+        },
+        {
+          "type": "link",
+          "url": "https://www.bbraun.com/en/products/b/celsite-psu.html"
+        },
+        {
+          "type": "link",
+          "url": "https://www.bbraun.es/es/pacientes/reservorios-implantables-de-acceso.html"
+        },
+        {
+          "type": "link",
+          "url": "https://relaunch.bkc.bbraun.com/display/bbwiki561/Ports+-+Non-Venous+Implantation"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-ecoflacoper",
+      "title": "Ecoflac®",
+      "description": "Ecoflac®, contenedor Sistema Cerrado de polietileno de baja densidad; colapsa sin necesidad de ingreso de aire, manteniendo la solución aislada del medio ambiente.",
+      "image": "20BC_Ecoflac.png",
+      "links": []
+    }
+  ]
 }
