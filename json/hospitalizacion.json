@@ -14,15 +14,15 @@
             "image" : "03AIS_BombasInfusionSpace.png",
             "links": [
                 {
-                    "type": "link",
+                    "type": "video",
                     "url": "https://www.youtube.com/watch?v=aims33_VbEw"
                 },
                 {
-                    "type": "link",
+                    "type": "video",
                     "url": "https://www.youtube.com/watch?v=kWGkWp4siWk"
                 },
                 {
-                    "type": "link",
+                    "type": "video",
                     "url": "https://www.youtube.com/watch?v=cwA26HesCX4"
                 }
             ]
@@ -34,7 +34,7 @@
             "image" : "02BC_IntrocanSafety.png",
             "links": [
                 {
-                    "type": "link",
+                    "type": "video",
                     "url": "https://www.youtube.com/watch?v=J188kqUBngc"
                 }
             ]
