@@ -5,7 +5,12 @@
             "title" : "Cateter Port - Celsite®",
             "description" : "Catéter Implantable con puerto de uso clínico hospitalario. Material del catéter: Poliuretano,Silicona. Material del reservorio: Titanio-Polisulfona.",
             "image" : "01AE_Celsite.png",
-            "link1" : "https://www.bbraun.es/es/products/b0/reservorios-implantablesdeaccesocelsite.html",
+            "link1" : 
+                    {  
+                    "type" : "link",
+                    "url" : "https://www.bbraun.es/es/products/b0/reservorios-implantablesdeaccesocelsite.html"
+                    }
+                ,
             "link2" : "https://www.bbraun.com/en/products/b/celsite-psu.html",
             "link3" : "https://www.bbraun.es/es/pacientes/reservorios-implantables-de-acceso.html"
         },
