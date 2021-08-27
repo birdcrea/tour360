@@ -285,7 +285,12 @@
       "title": "Paracetamol IV 10mg/mL",
       "description": "Paracetamol IV 10mg/mL  en envase Ecoflac® “listo para usar” indicado para el tratamiento a corto plazo del dolor moderado y de la fiebre.",
       "image": "15HC_Paracetamol.png",
-      "links": []
+      "links": [
+        {
+          "type": "pdf",
+          "url": "pdf/15HC_FichaParacetamol.pdf"
+        }
+      ]
     },
     {
       "id": "hotspot-gelofusine",
@@ -323,7 +328,12 @@
       "title": "Ecoflac®",
       "description": "Ecoflac®, contenedor Sistema Cerrado de polietileno de baja densidad; colapsa sin necesidad de ingreso de aire, manteniendo la solución aislada del medio ambiente.",
       "image": "20BC_Ecoflac.png",
-      "links": []
+      "links": [
+        {
+          "type": "pdf",
+          "url": "pdf/04BC_Ecoflac.pdf"
+        }
+      ]
     }
   ]
 }

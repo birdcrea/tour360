@@ -71,7 +71,12 @@
             "title" : "Ecoflac®",
             "description" : "Ecoflac®, contenedor Sistema Cerrado de polietileno de baja densidad; colapsa sin necesidad de ingreso de aire, manteniendo la solución aislada del medio ambiente.",
             "image" : "04BC_Ecoflac.png",
-            "links" : []
+            "links" : [
+                {
+                    "type": "pdf",
+                    "url": "pdf/04BC_Ecoflac.pdf"
+                }
+            ]
         }
     ]
 }

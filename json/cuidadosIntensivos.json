@@ -13,6 +13,10 @@
                 {
                     "type": "video",
                     "url": "https://www.youtube.com/watch?v=mOv5SZhvWOg"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/01HC_FichaBombasSpace2.pdf"
                 }
             ]
         },
@@ -92,7 +96,12 @@
             "title" : "Ecoflac®",
             "description" : "Ecoflac®, contenedor Sistema Cerrado de polietileno de baja densidad; colapsa sin necesidad de ingreso de aire, manteniendo la solución aislada del medio ambiente.",
             "image" : "07BC_Ecoflac.png",
-            "links" : []
+            "links" : [
+                {
+                    "type": "pdf",
+                    "url": "pdf/04BC_Ecoflac.pdf"
+                }
+            ]
         }
 
     ]
