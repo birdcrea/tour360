@@ -54,7 +54,7 @@ main{
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
-    border: 6px solid #fff;
+    border: 6px solid #00a990;
     position: absolute;
     z-index: -1;
     top: 50%;
@@ -128,8 +128,8 @@ main{
     border-radius: 50%;
 }
 .hotspot-hemodiafiltracion {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     background: url('icons/ambulatorios/02_HEMODIAFILTRACION.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
@@ -196,8 +196,8 @@ main{
     border-radius: 50%;
 }
 .hotspot-einsteinvision{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     background: url('icons/operaciones/06AE_EinsteinVision.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
@@ -299,8 +299,8 @@ main{
     border-radius: 50%;
 }
 .hotspot-diapact{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     background: url('icons/uci/05HC_Diapact.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
