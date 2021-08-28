@@ -3,7 +3,7 @@
         {
             "id" : "hotspot-bombaspace",
             "title" : "Bombas Space - Space Glucose Control",
-            "description" : "Equipos de ultima generacion, desarrollados para realizar la transferencia de soliciones enterales y parenterales por vias permitidas, en unidades criticas, capacidad de uso de modulo space glucose control, que contribuye con el control de la glucosa de pacientes criticos evitando las hiper e hipo glicemias",
+            "description" : "Equipos de última generación, desarrollados para realizar la transferencia de soluciones entérales y parenterales por vías permitidas, en unidades críticas, capacidad de uso de módulo space glucose control, que contribuye con el control de la glucosa de pacientes críticos evitando las híper e hipo glicemias. R.S N° DB2765E , R.S N° DB2813E, R.S N° DB1789E",
             "image" : "01HC_BombasSpace.png",
             "links": [
                 {
@@ -16,26 +16,46 @@
                 },
                 {
                     "type": "pdf",
-                    "url": "pdf/01HC_FichaBombasSpace2.pdf"
+                    "url": "pdf/uci/01HC_BombasSpaceIFU1.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/01HC_BombasSpaceIFU2.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/01HC_FichaBombasSpace.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/01HC_FichaBombasSpace2.pdf"
                 }
             ]
         },
         {
             "id" : "hotspot-intrapurplus",
             "title" : "Intrapur plus®",
-            "description" : "Filtro de infusión  con membrana de material Polietersulfona de 0,2 micras para la retención de partículas, bacterias, endotoxinas y hongos",
+            "description" : "Filtro de infusión con membrana de material Polietersulfona de 0,2 micras para la retención de partículas, bacterias, endotoxinas y hongos. R.S N° DM4037E",
             "image" : "02HC_IntrapurPlus.png",
             "links": [
                 {
                     "type": "link",
                     "url": "https://www.bbraun.pe/es/productos-y-terapias/catalogo-de-productos/terapia-de-infusion/accesorios-de-infusionytransfusion/filtros/filtros-de-inyeccioneinfusion.html"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/02HC_FichaIntrapurPlus.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/02HC_IntrapurPlusIFU.pdf"
                 }
             ]
         },
         {
             "id" : "hotspot-certofix",
             "title" : "Catéter Venoso Central - Certofix",
-            "description" : "Catéter Venoso Central para la cateterización de la vena cava según técnica Seldinger, y/o ténica Seldinger Modificada (cánula valvulada); que permite el control de la posición de la punta del catéter mediante derivación al ECG intraauricular a través de la guía de metálica. La gama de productos Certofix® de B. Braun ofrece una cartera completa de CVC para pacientes adultos, pediátricos y para administrar terapias de alto flujo.",
+            "description" : "Catéter Venoso Central para la categorización de la vena cava según técnica Seldinger, y/o ténica Seldinger Modificada (cánula valvulada); que permite el control de la posición de la punta del catéter mediante derivación al ECG intraauricular a través de la guía metálica. La gama de productos Certofix® de B. Braun ofrece una cartera completa de CVC para pacientes adultos, pediátricos y para administrar terapias de alto flujo. R. S N° DM12266E",
             "image" : "03HC_Certofix1.png",
             "links": [
                 {
@@ -44,21 +64,49 @@
                 },
                 {
                     "type": "video",
+                    "url": "https://www.youtube.com/watch?v=p-yUMu63TMQ"
+                },
+                {
+                    "type": "video",
                     "url": "https://www.youtube.com/watch?v=Trh5spmSNmw"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/03HC_CertofixIFU1.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/03HC_CertofixIFU2.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/03HC_CertofixIFU3.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/03HC_CertofixIFU4.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/03HC_CertofixIFU5.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/03HC_CertofixIFU6.pdf"
                 }
-            ]
+                            ]
         },
         {
             "id" : "hotspot-enbracestandar",
-            "title" : "Enbrace Standard / Enbrace Standard Fibra",
-            "description" : "Nnutriente completo isotónico polimérico normocalórico listo para usar, indicado para necesidades nutricionales incrementadas y suplementado con con epa y dha, proteínas de alto valor biológico, en presentación con fibra y sin fibra para propósitos médicos especiales.",
+            "title" : "Enbrace Standard Sabor Neutro / Enbrace Standard Fibre",
+            "description" : "Nutriente completo isotónico polimérico normocalórico listo para usar, indicado para necesidades nutricionales incrementadas y suplementado con epa y dha, proteínas de alto valor biológico, en presentación con fibra y sin fibra para propósitos médicos especiales. R.S N° DE-2643, R.S N° DE-2985.",
             "image" : "04HC_EnbraceStandar.png",
             "links" : []
         },
         {
             "id" : "hotspot-diapact",
             "title" : "Diapact - Crrt ",
-            "description" : "Terapia renal continua, equipo de reemplazo renal para pacientes agudos, permite realizar procedimientos de hemodialisis y hemofiltracion, plasmaferesis",
+            "description" : "Terapia renal continua, equipo de reemplazo renal para pacientes agudos, permite realizar procedimientos de hemodiálisis y hemofiltración, plasmaferesis. R.S N° DB0742E",
             "image" : "05HC_Diapact.png",
             "links": [
                 {
@@ -68,13 +116,17 @@
                 {
                     "type": "video",
                     "url": "https://www.youtube.com/watch?v=668zb9f0OVI"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/05HC_DiapactIFU.pdf"
                 }
             ]
         },
         {
             "id" : "hotspot-curacionheridas",
             "title" : "Linea De Curacion De Heridas Bbraun",
-            "description" : "Linea completa para prevencion y curacion de heridas , como lesiones por presion, ulceras venosas, pie diabetico, dai, heridas post quirurgicas y oncologicas",
+            "description" : "Linea completa para prevencion y curacion de heridas , como lesiones por presion, ulceras venosas, pie diabetico, dai, heridas post quirurgicas y oncologicas. R.S N° DM7677E, R.S N° DM3693E, NSOC43200-11CO.",
             "image" : "06HC_LINOVERA.png",
             "links": [
                 {
@@ -88,6 +140,14 @@
                 {
                     "type": "video",
                     "url": "https://youtu.be/H3TcxR6kH_Q"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/06HC_PRONTOSAN_WOUND_GEL_IFU.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/uci/06HC_PRONTOSAN_WOUND_IRRIGATION_SOLUTION_IFU.pdf"
                 }
             ]
         },
@@ -99,7 +159,7 @@
             "links" : [
                 {
                     "type": "pdf",
-                    "url": "pdf/04BC_Ecoflac.pdf"
+                    "url": "pdf/uci/07BC_Ecoflac.pdf"
                 }
             ]
         }
