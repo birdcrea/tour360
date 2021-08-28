@@ -10,7 +10,7 @@
         {
             "id" : "hotspot-compactplus",
             "title" : "Bombas Infusomat y Perfusor Space / Compact Plus",
-            "description" : "Bombas de infusion y con jeringa, para pacientes neonatologicos, pediatricos y adultos, para terapias de administracion de soliciones parenterales y enterales, por vias clinicamente permitidas, uso de terapias especializadas, uso de librería de medicamentos - smart pump",
+            "description" : "Bombas de infusión y con jeringa, para pacientes neonatológicos, pediátricos y adultos, para terapias de administración de soluciones parenterales y entérales, por vías clínicamente permitidas, uso de terapias especializadas, uso de librería de medicamentos - smart pump. R.S N° DB2765E, R.S N° DB2813E, R.S N° DB5654E",
             "image" : "03AIS_BombasInfusionSpace.png",
             "links": [
                 {
@@ -27,33 +27,58 @@
                 },
                 {
                     "type": "pdf",
-                    "url": "pdf/hospitalizacion/04BC_Ecoflac.pdf"
+                    "url": "pdf/hospitalizacion/01AIS_BombasInfusomat_IFU1.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/hospitalizacion/01AIS_BombasInfusomat_IFU2.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/hospitalizacion/01AIS_BombasInfusomat_IFU3.pdf"
                 }
             ]
         },
         {
             "id" : "hotspot-safetyw",
             "title" : "Introcan Safety W",
-            "description" : "Catéter endovenoso periférico con sistema de bioseguridad.",
+            "description" : "Catéter endovenoso periférico con sistema de bioseguridad. RS. N° DM2255E",
             "image" : "02BC_IntrocanSafety.png",
             "links": [
                 {
                     "type": "video",
                     "url": "https://www.youtube.com/watch?v=J188kqUBngc"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/hospitalizacion/02BC_IntrocanSafety_IFU.pdf"
                 }
             ]
         },
         {
             "id" : "hotspot-plusyspecial",
-            "title" : "Nutriflex Peri, Plus y Special",
-            "description" : "Solución parenteral lista para usar , bolsa bicameral con aminoácidos , dextrosa y electrolitos  en 3 presentaciones  nutriflex peri vía periférica, y nutriflex plus y special para vía central.",
+            "title" : "Nutriflex Peri, Nutriflex Plus, Nutriflex Special",
+            "description" : "Solución parenteral lista para usar, bolsa bicameral con aminoácidos, dextrosa y electrolitos en 3 presentaciones nutriflex peri vía periférica, y nutriflex plus y nutriflex special para vía central.",
             "image" : "04CN_Nutriflex.png",
-            "links" : []
+            "links" : [
+                {
+                    "type": "pdf",
+                    "url": "pdf/hospitalizacion/04CN_NUTRIFLEX_PERI_IFU.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/hospitalizacion/04CN_NUTRIFLEX_PLUS_IFU.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/hospitalizacion/04CN_NUTRIFLEX_SPECIAL_IFU.pdf"
+                }
+            ]
         },
         {
             "id" : "hotspot-heridasbbraun",
             "title" : "Línea De Curación De Heridas Bbraun",
-            "description" : "Linea completa para prevencion y curacion de heridas , como lesiones por presion, ulceras venosas, pie diabetico, dai, heridas post quirurgicas y oncologicas",
+            "description" : "Línea completa para prevención y curación de heridas. Para uso en pieles sensibles. Limpieza en lesiones por presión, úlceras venosas, pie diabético, heridas post quirúrgicas y oncológicas. R.S N° DM7677E, R.S N° DM3693E, NSOC43200-11CO",
             "image" : "05HC_PRONTOSAN.png",
             "links": [
                 {
@@ -67,6 +92,14 @@
                 {
                     "type": "video",
                     "url": "https://youtu.be/H3TcxR6kH_Q"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/hospitalizacion/05HC_PRONTOSAN_WOUND_GEL_IFU.pdf"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/hospitalizacion/05HC_PRONTOSAN_WOUND_IRRIGATION_SOLUTION_IFU.pdf"
                 }
             ]
         },
@@ -78,7 +111,7 @@
             "links" : [
                 {
                     "type": "pdf",
-                    "url": "pdf/04BC_Ecoflac.pdf"
+                    "url": "pdf/hospitalizacion/04BC_Ecoflac.pdf"
                 }
             ]
         }
