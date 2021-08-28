@@ -2,8 +2,8 @@
   "productos": [
     {
       "id": "hotspot-celcite",
-      "title": "Cateter Port - Celsite®",
-      "description": "Catéter Implantable con puerto de uso clínico hospitalario. Material del catéter: Poliuretano,Silicona. Material del reservorio: Titanio-Polisulfona.",
+      "title": "Celsite®  - Cateter Port",
+      "description": "Puerto (reservorio) implantable con catéter de uso clínico hospitalario. Material del catéter: Poliuretano, Silicona. Material del reservorio: Titanio-Polisulfona.",
       "image": "01AE_Celsite.png",
       "links": [
         {
@@ -17,33 +17,41 @@
         {
           "type": "link",
           "url": "https://www.bbraun.es/es/pacientes/reservorios-implantables-de-acceso.html"
+        },
+        {
+          "type": "link",
+          "url": "https://relaunch.bkc.bbraun.com/display/bbwiki561/Ports+-+Non-Venous+Implantation"
         }
       ]
     },
     {
       "id": "hotspot-bombainfusion",
-      "title": "Bombas de Infusion Space y Compact Plus",
-      "description": "Equipos diseños para el desarrollo de diferentes terapias ambulatorias como administracion de terapias nutricionales, adminitracion de terapias medicamentos y citostáticos con el uso de líneas especializadas en el sistema cerrado que previenen los derrames y aerosoles.",
-      "image": "03AIS_BombasInfusionSpace.png",
+      "title": "Compact Plus",
+      "description": "Equipos diseñados para el desarrollo de diferentes terapias ambulatorias como administración de soluciones entérales o parenterales totales y lípidos, también administración de medicamentos aptos para la terapia de infusión, anestesia, la sangre y sus componentes. R.S N° DB5654E",
+      "image": "03AIS_BombasInfusionSpace_NUEVO.png",
       "links": [
         {
           "type": "video",
-          "url": "https://www.youtube.com/watch?v=aims33_VbEw"
+          "url": "https://www.youtube.com/watch?v=g9cXqzbrFG8"
         },
         {
           "type": "video",
-          "url": "https://www.youtube.com/watch?v=QrMkqOXKwo4"
+          "url": "https://www.youtube.com/watch?v=GHxOzjTPuuk"
         },
         {
           "type": "video",
-          "url": "https://www.youtube.com/watch?v=xlriCPVNSGg"
+          "url": "https://www.youtube.com/watch?v=OJOX2QmAlfU"
+        },
+        {
+          "type": "pdf",
+          "url": "pdf/ambularias/03AIS_BombasInfusionCompactPlus_IFU.pdf"
         }
       ]
     },
     {
       "id": "hotspot-infusores",
-      "title": "Infusores Elastoméricos - EasyPump II",
-      "description": "Dispositivos para la infusión contínua vía endovenosa, subcutánea y epidural de medicamentos mediante un mecanismo pasivo, a través de un balón elastómero de silicona que permite la administración de la solución. La bomba de infusión elastomérica Easypump® II está diseñada para ofrecer al personal médico, químicos farmacéuticos y personal de enfermería la posibilidad de dispensar cantidades predeterminadas de una medicación a los pacientes de manera contínua y precisa, ya sea en el hospital, de forma ambulatoria o en casa.",
+      "title": "EasyPump II - Infusores Elastoméricos",
+      "description": "Dispositivos para la infusión contínua vía endovenosa, subcutánea y epidural de medicamentos mediante un mecanismo pasivo, a través de un balón elastómero de silicona que permite la administración de la solución. La bomba de infusión elastomérica Easypump® II está diseñada para ofrecer al personal médico, químicos farmacéuticos y personal de enfermería la posibilidad de dispensar cantidades predeterminadas de una medicación a los pacientes de manera contínua y precisa, ya sea en el hospital, de forma ambulatoria o en casa. R.S N° DM12178E",
       "image": "05CC_InfusoresElastoméricosEasyPump2.png",
       "links": [
         {
@@ -53,6 +61,10 @@
         {
           "type": "video",
           "url": "https://www.youtube.com/watch?v=6JI_prxOm-U"
+        },
+        {
+          "type": "pdf",
+          "url": "pdf/ambularias/05CC_InfusoresElastoméricosEasyPump_IFU.pdf"
         }
       ]
     },
@@ -64,14 +76,14 @@
       "links": [
         {
           "type": "pdf",
-          "url": "pdf/15HC_FichaParacetamol.pdf"
+          "url": "pdf/ambularias/04BC_Ecoflac.pdf"
         }
       ]
     },
     {
       "id": "hotspot-linovera",
-      "title": "Linovera",
-      "description": "Linea completa para prevencion y curacion de heridas , como lesiones por presion, ulceras venosas, pie diabetico, dai, heridas post quirurgicas y oncologicas.",
+      "title": "Linea De Curacion De Heridas Bbraun",
+      "description": "Línea completa para prevención y curación de heridas, como lesiones por presión, úlceras venosas, pie diabético, dai, heridas post quirúrgicas y oncológicas. R.S N° DM7677E, R.S N° DM3693E, NSOC43200-11CO",
       "image": "05HC_LINOVERA.png",
       "links": [
         {
@@ -85,18 +97,30 @@
         {
           "type": "video",
           "url": "https://youtu.be/H3TcxR6kH_Q"
+        },
+        {
+          "type": "pdf",
+          "url": "pdf/ambularias/06HC_PRONTOSAN_WOUND_GEL_IFU.pdf"
+        },
+        {
+          "type": "pdf",
+          "url": "pdf/ambularias/06HC_PRONTOSAN_WOUND_IRRIGATION_SOLUTION_IFU.pdf"
         }
       ]
     },
     {
       "id": "hotspot-hemodiafiltracion",
-      "title": "Hemodialisis - Hemodiafiltracion",
-      "description": "Linea avalada por 20 años investigacion y experiencia, capaz de cumplir con cualquier requerimiento del paciente,  apoyado por un servicio técnico y logístico de calidad.",
+      "title": "Dialog+ Sw V9.x -  Hemodialisis , Hemodiafiltracion",
+      "description": "Sistema de hemodiálisis, línea avalada por 20 años investigación y experiencia, capaz de cumplir con cualquier requerimiento del paciente, apoyado por un servicio técnico y logístico de calidad. R.S N° DB6588E ",
       "image": "02_HEMODIAFILTRACION.png",
       "links": [
         {
           "type": "video",
           "url": "https://www.youtube.com/watch?v=vJ12DIDzFU8"
+        },
+        {
+          "type": "pdf",
+          "url": "pdf/ambularias/02_Hemodiafiltracion_IFU.pdf"
         }
       ]
     }

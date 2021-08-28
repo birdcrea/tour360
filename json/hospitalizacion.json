@@ -24,6 +24,10 @@
                 {
                     "type": "video",
                     "url": "https://www.youtube.com/watch?v=cwA26HesCX4"
+                },
+                {
+                    "type": "pdf",
+                    "url": "pdf/hospitalizacion/04BC_Ecoflac.pdf"
                 }
             ]
         },
@@ -48,7 +52,7 @@
         },
         {
             "id" : "hotspot-heridasbbraun",
-            "title" : "Linea De Curacion De Heridas Bbraun",
+            "title" : "Línea De Curación De Heridas Bbraun",
             "description" : "Linea completa para prevencion y curacion de heridas , como lesiones por presion, ulceras venosas, pie diabetico, dai, heridas post quirurgicas y oncologicas",
             "image" : "05HC_PRONTOSAN.png",
             "links": [
