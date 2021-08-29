@@ -44,7 +44,7 @@
         },
         {
           "type": "pdf",
-          "url": "pdf/ambularias/03AIS_BombasInfusionCompactPlus_IFU.pdf"
+          "url": "pdf/ambulatorios/03AIS_BombasInfusionCompactPlus_IFU.pdf"
         }
       ]
     },
@@ -64,7 +64,7 @@
         },
         {
           "type": "pdf",
-          "url": "pdf/ambularias/05CC_InfusoresElastoméricosEasyPump_IFU.pdf"
+          "url": "pdf/ambulatorios/05CC_InfusoresElastoméricosEasyPump_IFU.pdf"
         }
       ]
     },
@@ -76,7 +76,7 @@
       "links": [
         {
           "type": "pdf",
-          "url": "pdf/ambularias/04BC_Ecoflac.pdf"
+          "url": "pdf/ambulatorios/04BC_Ecoflac.pdf"
         }
       ]
     },
@@ -100,11 +100,11 @@
         },
         {
           "type": "pdf",
-          "url": "pdf/ambularias/06HC_PRONTOSAN_WOUND_GEL_IFU.pdf"
+          "url": "pdf/ambulatorios/06HC_PRONTOSAN_WOUND_GEL_IFU.pdf"
         },
         {
           "type": "pdf",
-          "url": "pdf/ambularias/06HC_PRONTOSAN_WOUND_IRRIGATION_SOLUTION_IFU.pdf"
+          "url": "pdf/ambulatorios/06HC_PRONTOSAN_WOUND_IRRIGATION_SOLUTION_IFU.pdf"
         }
       ]
     },
@@ -120,7 +120,7 @@
         },
         {
           "type": "pdf",
-          "url": "pdf/ambularias/02_Hemodiafiltracion_IFU.pdf"
+          "url": "pdf/ambulatorios/02_Hemodiafiltracion_IFU.pdf"
         }
       ]
     }
