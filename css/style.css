@@ -119,7 +119,7 @@ main{
 .hotspot-bombainfusion {
     height: 100px;
     width: 100px;
-    background: url('icons/ambulatorios/03AIS_BombasInfusionSpace_NUEVO.png') rgba(255, 255, 255, 1);
+    background: url('icons/ambulatorios/03AIS_BombasInfusionSpace.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 .hotspot-infusores {
