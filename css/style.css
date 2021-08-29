@@ -50,6 +50,7 @@ main{
 }
 .list-group-item .btn{
     margin-right: 5px;
+    margin-top: 5px;
 }
 .btn-url{
     background-color: #4983b5;
