@@ -211,7 +211,7 @@ main{
 .hotspot-clipadora{
     height: 100px;
     width: 100px;
-    background: url('icons/operaciones/04AE_Challenger.png') rgba(255, 255, 255, 1);
+    background: url('icons/operaciones/05AE_ClipDS.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 .hotspot-einsteinvision{
@@ -230,12 +230,6 @@ main{
     height: 100px;
     width: 100px;
     background: url('icons/operaciones/08AE_Excia.png') rgba(255, 255, 255, 1);
-    border-radius: 50%;
-}
-.hotspot-suministroesteril{
-    height: 100px;
-    width: 100px;
-    background: url('icons/operaciones/10_AE_CONTENEDORES.png') rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 .hotspot-instrumentalq{
