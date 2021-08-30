@@ -346,13 +346,14 @@
       "image": "11AE_LapfixOptileneMesh.png",
       "links": [
         {
-          "type": "link",
-          "url": "https://www.bbraun.es/es/products/b0/optilene-mesh.html"
-        },
-        {
           "type": "video",
           "url": "https://www.youtube.com/watch?v=xrM7TjIqDsY"
         },
+        {
+          "type": "link",
+          "url": "https://www.bbraun.es/es/products/b0/optilene-mesh.html"
+        },
+        
         {
           "type": "link",
           "url": "https://www.bbraun.es/es/products/b0/histoacryl.html"
