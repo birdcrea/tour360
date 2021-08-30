@@ -21,6 +21,26 @@
         {
           "type": "link",
           "url": "https://relaunch.bkc.bbraun.com/display/bbwiki561/Ports+-+Non-Venous+Implantation"
+        },
+        {
+          "type": "pdf",
+          "url": "pdf/ambulatorios/01AE_Celsite_IFU.pdf"
+        }
+      ]
+    },
+    {
+      "id": "hotspot-hemodiafiltracion",
+      "title": "Dialog+ Sw V9.x - Hemodiálisis, Hemodiafiltracion",
+      "description": "Sistema de hemodiálisis, línea avalada por 20 años investigación y experiencia, capaz de cumplir con cualquier requerimiento del paciente, apoyado por un servicio técnico y logístico de calidad. R.S N° DB6588E ",
+      "image": "02_HEMODIAFILTRACION.png",
+      "links": [
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=vJ12DIDzFU8"
+        },
+        {
+          "type": "pdf",
+          "url": "pdf/ambulatorios/02_Hemodiafiltracion_IFU.pdf"
         }
       ]
     },
@@ -49,6 +69,18 @@
       ]
     },
     {
+      "id": "hotspot-ecoflac",
+      "title": "Ecoflac®",
+      "description": "Ecoflac®, contenedor Sistema Cerrado de polietileno de baja densidad; colapsa sin necesidad de ingreso de aire, manteniendo la solución aislada del medio ambiente.",
+      "image": "04BC_Ecoflac.png",
+      "links": [
+        {
+          "type": "pdf",
+          "url": "pdf/ambulatorios/04BC_Ecoflac.pdf"
+        }
+      ]
+    },
+    {
       "id": "hotspot-infusores",
       "title": "EasyPump II - Infusores Elastoméricos",
       "description": "Dispositivos para la infusión contínua vía endovenosa, subcutánea y epidural de medicamentos mediante un mecanismo pasivo, a través de un balón elastómero de silicona que permite la administración de la solución. La bomba de infusión elastomérica Easypump® II está diseñada para ofrecer al personal médico, químicos farmacéuticos y personal de enfermería la posibilidad de dispensar cantidades predeterminadas de una medicación a los pacientes de manera contínua y precisa, ya sea en el hospital, de forma ambulatoria o en casa. R.S N° DM12178E",
@@ -69,20 +101,8 @@
       ]
     },
     {
-      "id": "hotspot-ecoflac",
-      "title": "Ecoflac®",
-      "description": "Ecoflac®, contenedor Sistema Cerrado de polietileno de baja densidad; colapsa sin necesidad de ingreso de aire, manteniendo la solución aislada del medio ambiente.",
-      "image": "04BC_Ecoflac.png",
-      "links": [
-        {
-          "type": "pdf",
-          "url": "pdf/ambulatorios/04BC_Ecoflac.pdf"
-        }
-      ]
-    },
-    {
       "id": "hotspot-linovera",
-      "title": "Linea De Curacion De Heridas Bbraun",
+      "title": "Línea De Curación De Heridas Bbraun",
       "description": "Línea completa para prevención y curación de heridas, como lesiones por presión, úlceras venosas, pie diabético, dai, heridas post quirúrgicas y oncológicas. R.S N° DM7677E, R.S N° DM3693E, NSOC43200-11CO",
       "image": "05HC_LINOVERA.png",
       "links": [
@@ -105,22 +125,6 @@
         {
           "type": "pdf",
           "url": "pdf/ambulatorios/06HC_PRONTOSAN_WOUND_IRRIGATION_SOLUTION_IFU.pdf"
-        }
-      ]
-    },
-    {
-      "id": "hotspot-hemodiafiltracion",
-      "title": "Dialog+ Sw V9.x -  Hemodialisis , Hemodiafiltracion",
-      "description": "Sistema de hemodiálisis, línea avalada por 20 años investigación y experiencia, capaz de cumplir con cualquier requerimiento del paciente, apoyado por un servicio técnico y logístico de calidad. R.S N° DB6588E ",
-      "image": "02_HEMODIAFILTRACION.png",
-      "links": [
-        {
-          "type": "video",
-          "url": "https://www.youtube.com/watch?v=vJ12DIDzFU8"
-        },
-        {
-          "type": "pdf",
-          "url": "pdf/ambulatorios/02_Hemodiafiltracion_IFU.pdf"
         }
       ]
     }

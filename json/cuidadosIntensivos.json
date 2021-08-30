@@ -24,6 +24,10 @@
                 },
                 {
                     "type": "pdf",
+                    "url": "pdf/uci/01HC_BombasSpaceIFU3.pdf"
+                },
+                {
+                    "type": "pdf",
                     "url": "pdf/uci/01HC_FichaBombasSpace.pdf"
                 },
                 {
@@ -54,7 +58,7 @@
         },
         {
             "id" : "hotspot-certofix",
-            "title" : "Catéter Venoso Central - Certofix",
+            "title" : "Certofix®  - Catéter Venoso Central",
             "description" : "Catéter Venoso Central para la categorización de la vena cava según técnica Seldinger, y/o ténica Seldinger Modificada (cánula valvulada); que permite el control de la posición de la punta del catéter mediante derivación al ECG intraauricular a través de la guía metálica. La gama de productos Certofix® de B. Braun ofrece una cartera completa de CVC para pacientes adultos, pediátricos y para administrar terapias de alto flujo. R. S N° DM12266E",
             "image" : "03HC_Certofix1.png",
             "links": [
@@ -94,7 +98,7 @@
                     "type": "pdf",
                     "url": "pdf/uci/03HC_CertofixIFU6.pdf"
                 }
-                            ]
+            ]
         },
         {
             "id" : "hotspot-enbracestandar",
@@ -125,8 +129,8 @@
         },
         {
             "id" : "hotspot-curacionheridas",
-            "title" : "Linea De Curacion De Heridas Bbraun",
-            "description" : "Linea completa para prevencion y curacion de heridas , como lesiones por presion, ulceras venosas, pie diabetico, dai, heridas post quirurgicas y oncologicas. R.S N° DM7677E, R.S N° DM3693E, NSOC43200-11CO.",
+            "title" : "Línea De Curación De Heridas Bbraun",
+            "description" : "Línea completa para prevención y curación de heridas, como lesiones por presión, úlceras venosas, pie diabético, dai, heridas post quirúrgicas y oncológicas. R.S N° DM7677E, R.S N° DM3693E, NSOC43200-11CO.",
             "image" : "06HC_LINOVERA.png",
             "links": [
                 {

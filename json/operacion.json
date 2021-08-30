@@ -147,12 +147,12 @@
           "url": "https://www.bbraun.es/es/products/b0/challenger-ti-p-ti.html"
         },
         {
-          "type": "video",
-          "url": "https://www.youtube.com/watch?v=ZNOylRGWyiA"
-        },
-        {
           "type": "link",
           "url": "https://www.bbraun.com/en/products-and-therapies/services/bbraun-apps.html"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ZNOylRGWyiA"
         },
         {
           "type": "pdf",
@@ -262,7 +262,7 @@
     },
     {
       "id": "hotspot-plasmafit",
-      "title": " Exciat y Plasmafit - Protesis De Cadera ",
+      "title": " Excia T y Plasmafit - Prótesis De Cadera ",
       "description": "Prótesis de altísima calidad, hecha de titanio y plasmapore. Un cotilo de polipropileno mezclado con vitamina E y cabezas de matal y cerámica. R.S. N° DM10873E;  R.S. N° DM13193E;  R.S. N° DM13928E;  R.S. N° DM10924E",
       "image": "08AE_Excia.png",
       "links": [
@@ -448,6 +448,10 @@
         {
           "type": "pdf",
           "url": "pdf/operaciones/15HC_Paracetamol_IFU.pdf"
+        },
+        {
+          "type": "pdf",
+          "url": "pdf/operaciones/15HC_Paracetamol_IFU.pdf"
         }
       ]
     },
@@ -459,7 +463,7 @@
       "links": [
         {
           "type": "pdf",
-          "url": "pdf/operaciones/15HC_Paracetamol_IFU.pdf"
+          "url": "pdf/operaciones/16HC_Gelofusine_IFU.pdf"
         }
       ]
     },

@@ -1,13 +1,6 @@
 {
     "productos":[
         {
-            "id" : "hotspot-fluidoterapia",
-            "title" : "Fluidoterapia - Isofundin",
-            "description" : "Isofundin® tiene una composición de electrolitos isotónicos que se asemeja al plasma humano; utilizado para la sustición de pérdidas de fluídos extracelulares en caso de deshidratación isotónica, donde la acidoses esté presente o sea inminente. Indicado en bebés desde 28 días, niños, adolescentes, adultos y ancianos.",
-            "image" : "03CC_Sterofundin1.png",
-            "links" : []
-        },
-        {
             "id" : "hotspot-compactplus",
             "title" : "Bombas Infusomat y Perfusor Space / Compact Plus",
             "description" : "Bombas de infusión y con jeringa, para pacientes neonatológicos, pediátricos y adultos, para terapias de administración de soluciones parenterales y entérales, por vías clínicamente permitidas, uso de terapias especializadas, uso de librería de medicamentos - smart pump. R.S N° DB2765E, R.S N° DB2813E, R.S N° DB5654E",
@@ -41,7 +34,7 @@
         },
         {
             "id" : "hotspot-safetyw",
-            "title" : "Introcan Safety W",
+            "title" : "Introcan Safety - W",
             "description" : "Catéter endovenoso periférico con sistema de bioseguridad. RS. N° DM2255E",
             "image" : "02BC_IntrocanSafety.png",
             "links": [
@@ -52,6 +45,18 @@
                 {
                     "type": "pdf",
                     "url": "pdf/hospitalizacion/02BC_IntrocanSafety_IFU.pdf"
+                }
+            ]
+        },
+        {
+            "id" : "hotspot-fluidoterapia",
+            "title" : "Fluidoterapia - Isofundin",
+            "description" : "Isofundin® tiene una composición de electrolitos isotónicos que se asemeja al plasma humano; utilizado para la sustición de pérdidas de fluídos extracelulares en caso de deshidratación isotónica, donde la acidoses esté presente o sea inminente. Indicado en bebés desde 28 días, niños, adolescentes, adultos y ancianos.",
+            "image" : "03CC_Sterofundin1.png",
+            "links" : [
+                {
+                    "type": "pdf",
+                    "url": "pdf/hospitalizacion/03CC_Sterofundin_IFU.pdf"
                 }
             ]
         },
@@ -111,7 +116,7 @@
             "links" : [
                 {
                     "type": "pdf",
-                    "url": "pdf/hospitalizacion/04BC_Ecoflac.pdf"
+                    "url": "pdf/hospitalizacion/06BC_Ecoflac.pdf"
                 }
             ]
         }
